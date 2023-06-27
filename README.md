@@ -1,6 +1,51 @@
 # RS School. DevOps from Zero to Hero educational program
 
-## Who are we?
+# DevOps from Zero to Hero Educational Program
+**Description:** This program aims to guide aspiring individuals through the fundamentals of DevOps, culminating in the knowledge and practical skills necessary for a Junior Systems Engineer role in the Cloud/DevOps field. We'll tackle different core concepts, methodologies, and tools used in the industry, along with interactive sessions to strengthen your learning.
+
+### Course Goal
+- Gain enough knowledge and experience to qualify for a Junior Systems Engineer position in the Cloud/DevOps field.
+- Develop necessary skills to excel in job interviews.
+- Build a portfolio showcasing your abilities and knowledge in DevOps.
+
+### Admission to the Course
+- The course is open to all interested individuals.
+- This course is offered free of charge.
+
+### Prerequisites
+
+Before starting the course, the student must:  
+- Have basic knowledge of Computer Science.
+- Be able to commit to studying for at least 10 hours per week.
+- Have a working knowledge of a programming language, preferably Python or JavaScript.
+- Have a basic understanding of operating systems, especially Linux.
+
+### Learning Path
+#### Week #1 (August 8 2023)
+- [Module "Course intro"](modules/intro/README.md)
+- [Module "Introduction to DevOps and its Principles"](modules/devops_intro/README.md)
+- [Module "Introduction to Linux and Basic Commands"](modules/linux_intro/README.md)
+- Live Q&A Session
+
+#### Week #2 (August 15 2023)
+- [Module "Version Control with Git"](modules/git/README.md)
+- [Module "Continuous Integration and Continuous Delivery (CI/CD)"](modules/cicd/README.md)
+- Workshop: "Git Basics and Best Practices"
+
+### Communication
+
+#### Discord Server
+Our Discord server is the main platform for communication. We have created two categories of channels - RS-AWS-Club-EN and RS-AWS-Club-RU, for English and Russian-speaking members respectively. 
+Link to join: https://discord.gg/uWvFU2RAba
+
+#### Q&A Sessions
+We have regular Q&A sessions every Tuesday (**TBD**) at 15:00 CET (**TBD**) in English.
+
+### AWS Accounts 
+- Important! You use your personal AWS accounts to complete the courses.
+- We occasionally host AWS workshops for which free accounts are provided.
+
+# Who are we?
 **The Rolling Scopes** is an independent international community of developers.
 
 **RS School** is a free-of-charge and community-based education program run by the Rolling Scopes developer community since 2013.
@@ -18,25 +63,6 @@ Thousands of graduated trainees in 11 countries and 500+ mentors around the worl
 - [Video: Rolling Scopes School in Poland. Story of my journey.](https://wearecommunity.io/events/hitchhiker-s-guide-to-epam-in-poland/talks/18089)
 - [Video: Intro about RS Community and NodeJS Course](https://www.youtube.com/watch?v=PG7ZBHSi09k)
 - [Official documentation](https://docs.rs.school/#/en/)
-
-# DevOps from Zero to Hero educational program
-**TODO**
-
-### Learning Path
-**TODO**
-
-### Communication
-
-#### Discord Server
-Our Discord server is the main platform for communication. We have created two categories of channels - RS-AWS-Club-EN and RS-AWS-Club-RU, for English and Russian-speaking members respectively. 
-Link to join: https://discord.gg/uWvFU2RAba
-
-#### Q&A Sessions
-We have regular Q&A sessions every Tuesday (**TBD**) at 15:00 CET (**TBD**) in English.
-
-### AWS Accounts 
-- Important! You use your personal AWS accounts to complete the courses.
-- We occasionally host AWS workshops for which free accounts are provided.
 
 ## FAQ
 ### Where is the communication taking place?

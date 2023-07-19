@@ -33,7 +33,8 @@ Before starting the course, the student must:
 - [Module "Networking Basics]()
 
 #### Week #4: Git 
-- **Goal:** Understand what git does, and how to apply it to projects involving source code, managing branches, and knowing patterns for it.
+- [Module "Git](modules/git/README.md)
+- [Project: CV. Markdown](modules/git/cv-project.md)
 
 #### Week #5: Cloud
 - **Goal:** Understand the basics of cloud computing, its types, and popular cloud service providers like AWS, GCP, and Azure.

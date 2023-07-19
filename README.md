@@ -18,76 +18,80 @@ Before starting the course, the student must:
 - Have a working knowledge of a programming language, preferably Python or JavaScript.
 - Have a basic understanding of operating systems, especially Linux.
 
-### Learning Path (DRAFT)
-#### Week #1 (August 8 2023)
-- [Module "Course intro"](modules/intro/README.md)
-- [Module "Introduction to DevOps and its Principles"](modules/devops_intro/README.md)
-- [Module "Introduction to Linux and Basic Commands"](modules/linux_intro/README.md)
-- Live Q&A Session
-
-#### Week #2 (August 15 2023)
-- [Module "Version Control with Git"](modules/git/README.md)
-- [Module "Continuous Integration and Continuous Delivery (CI/CD)"](modules/cicd/README.md)
-- Workshop: "Git Basics and Best Practices"
-
 ### Learning Path
 
-#### Week #1: DevOps Introduction (August 8th, 2023)
-- **Type:** Presentation
-- **Description:** DevOps is an approach to software development that integrates development and operations teams, fostering collaboration, automation, and continuous delivery, aiming to enhance efficiency, reduce deployment time, and improve software quality. 
-- **Goal:** Understand the fundamental principles of DevOps, recognize the benefits and key practices of DevOps, gain insight into continuous integration, continuous delivery, and deployment pipelines, comprehend the importance of collaboration, automation, and monitoring, and apply knowledge to improve software development processes and ensure high-quality products.
+#### Week #1: RS School & DevOps Introduction
+- [Module "RS School & Course Introduction"](modules/intro/README.md)
+- [Module "Introduction to DevOps and its Principles"](modules/devops_intro/README.md)
+- [Module "Junior DevOps Engineer Job Requirements and Responsibilities]()
+- Live Q&A session. Real-world case studies discussion
 
-#### Week #2: Linux Basics (August 15th, 2023)
-- **Type:** Presentation & Workshop
-- **Goal:** Understand the foundational concepts of the Linux operating system, its architecture, and basic commands.
+#### Week #2: Linux Basics 
+- [Module "Linux Basics]()
 
-#### Week #3: Networking (August 22nd, 2023)
-- **Type:** Presentation & Workshop
-- **Goal:** Understand the basics of computer networks, network protocols, and common networking tools.
+#### Week #3: Networking
+- [Module "Networking Basics]()
 
-#### Week #4: Git  (August 29th, 2023)
-- **Type:** Presentation & Workshop
-- **Deliverable:** Results of the Workshop
-- **Description:** Git is the main source code management tools for code versioning into repositories, regardless of whether you use Github, Gitlab, etc. SCM is important for DevOps because it is one of the foundations for CI/CD pipelines, and also helps teams to organize code and follow a workflow that can be connected with tickets over Jira or other Agile tools.
+#### Week #4: Git 
 - **Goal:** Understand what git does, and how to apply it to projects involving source code, managing branches, and knowing patterns for it.
 
 #### Week #5: Cloud
-- **Type:** Presentation & Workshop
 - **Goal:** Understand the basics of cloud computing, its types, and popular cloud service providers like AWS, GCP, and Azure.
+- [Module "AWS Cloud Practitioner Essentials"](modules/aws-cloud-practitioner-essentials/README.md)
 
-#### Week #6: CI/CD
-- **Type:** Presentation & Workshop
-- **Deliverable:** Results of the Workshop
-- **Description:** CI/CD practices are one of the core abilities for a DevOps Engineer. Continuous integration and continuous delivery (and deployment) help the development teams to automate the build and deployment of the applications for non-production and production environments, finding bugs and errors in the code and artifacts in a short period of time, making the feedback go faster down the stream and improving the development times from the coding to the deployment.
+#### Week #6 AWS Cloud Quest
+- [Module "AWS Cloud Practitioner Quest"](modules/aws-cloud-practitioner-essentials/README.md)
+
+#### Week #7: Technical screening & mentors distibution
+- We will conduct interviews for the top 50 students based on their RS APP Scores. Following these interviews, those who perform better will be assigned a personal mentor.
+
+#### Week #8: CI/CD
 - **Goal:** Understand what CI/CD is, develop pipelines to automate code development, testing, and deployment using standard tools for the industry.
+- Practical assignment: Setting up a CI/CD pipeline
+- Mentor activities: Weekly meeting with students
 
-#### Week #7: Databases
-- **Type:** Presentation & Workshop
+
+#### Week #9: Databases
 - **Goal:** Understand the basics of databases, SQL, NoSQL, and database management systems.
+- Mentor activities: Weekly meeting with students
 
-#### Week #8: Infrastructure as Code (IaC)
-- **Type:** Presentation & Workshop
+
+#### Week #10: Infrastructure as Code (IaC)
 - **Goal:** Understand the concept of IaC, its benefits, and popular tools like Terraform and CloudFormation.
+- Mentor activities: Weekly meeting with students
 
-#### Week #9: Configuration Management
-- **Type:** Presentation & Workshop
-- **Deliverable:** Results of the Workshop
-- **Description:** Configuration Management is the process of maintaining servers, VMs or computers changes in a desired, consistent state. Removing the need to configure them manually or through custom scripts, reducing complexity and errors. Making systems management predictable and scalable, and taking all the advantages of Infrastructure as Code such as version control, testing, and modularity.
+#### Week #11: Configuration Management
 - **Goal:** Understand what Configuration Management is, its benefits, and how to use a common tool such as Ansible.
+- Mentor activities: Weekly meeting with students
 
-#### Week #10: Virtualization vs Containerization
-- **Type:** Presentation & Workshop
+
+#### Week #12: Virtualization vs Containerization
 - **Goal:** Understand the differences between virtualization and containerization, and their applications in DevOps.
+- Mentor activities: Weekly meeting with students
 
-#### Week #11: Orchestration and Clustering
-- **Type:** Presentation & Workshop
+#### Week #13: Orchestration and Clustering
 - **Goal:** Understand the basics of orchestration, clustering, and popular tools like Kubernetes and Docker Swarm.
+- Mentor activities: Weekly meeting with students
 
-#### Week #12: Showcase Integration
-- **Type:** Project
-- **Deliverable:** Project Presentation
-- **Description:** Participants will apply acquired DevOps knowledge to a hands-on project, utilizing continuous integration, continuous delivery, and collaboration to develop, test, and deploy a software application efficiently, showcasing their understanding of key principles.
-- **Goal:** Demonstrate proficiency in Networking, Linux, Git, Cloud, CI/CD, Databases, Infrastructure as Code (IaC), Configuration Management, and Orchestration. They will apply these concepts to efficiently develop, test, and deploy software applications, leveraging best practices for version control, automation, infrastructure management, and container orchestration, showcasing their ability to integrate diverse technologies within a DevOps framework.
+#### Week #14 Students Presentation & Online Meetup
+- Online meetup
+  - Real-world Case Studies
+  - Guest Lectures:  insights into real-world applications, current industry trends, and potential challenges.
+
+#### Week #15: Final Project
+- - ["Final Project"](modules/final-project/README.md)
+- 
+#### Week #16: Final Project
+- - ["Final Project"](modules/final-project/README.md)
+- Mentor activities: Weekly meeting with students
+
+#### Week #17: Final Project Presentation
+- - ["Final Project Presentation"](modules/final-project/README.md)
+
+#### Week #18 Mock interview. Career Guidance and Job Assistance
+ - Live session on the career guidance, resume building, and interview preparation
+ - Mock interview with a mentor. 
+Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.
 
 ### Communication
 
@@ -101,25 +105,6 @@ We have regular Q&A sessions every Tuesday (**TBD**) at 15:00 CET (**TBD**) in E
 ### AWS Accounts 
 - Important! You use your personal AWS accounts to complete the courses.
 - We occasionally host AWS workshops for which free accounts are provided.
-
-# Who are we?
-**The Rolling Scopes** is an independent international community of developers.
-
-**RS School** is a free-of-charge and community-based education program run by the Rolling Scopes developer community since 2013.
-Thousands of graduated trainees in 11 countries and 500+ mentors around the world.
-
-#### What are our principles?
-- **Open to everyone.** Free courses, no obligations, and no contracts. No age limit. Only students’ time and dedication are required. Students can repeatedly attend courses.
-- **Open source philosophy.** [Our Learning Management System](https://github.com/rolling-scopes/rsschool-app) platform and education materials are publicly available on GitHub and YouTube.
-- **Teach it forward** According to this principle, students study at school for free, but we request that they return as mentors to pass on their knowledge to the next generation of students.
-
-## RS AWS Club
-**RS AWS Club** - part of The Rolling Scopes focused on AWS technologies. We meet regularly to share ideas, answer questions, and learn about new services and best practices.
-
-### Useful links
-- [Video: Rolling Scopes School in Poland. Story of my journey.](https://wearecommunity.io/events/hitchhiker-s-guide-to-epam-in-poland/talks/18089)
-- [Video: Intro about RS Community and NodeJS Course](https://www.youtube.com/watch?v=PG7ZBHSi09k)
-- [Official documentation](https://docs.rs.school/#/en/)
 
 ## FAQ
 ### Where is the communication taking place?

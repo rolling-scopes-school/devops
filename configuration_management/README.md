@@ -11,6 +11,7 @@ These tools assist you in deploying and managing software on existing cloud infr
     <img src="cm.png">
 </div>
 
+<p>&nbsp;</p>
 
 Establishing a dependable, uniform, and properly maintained IT environment on a large scale requires configuration management. Instead of depending on individuals to carry out laborious manual configuration assignments, automation enables teams to consistently deploy and configure components more efficiently, with reduced human involvement to minimize errors. Moreover, it facilitates the maintenance of consistent system settings across various environments (development, staging, production) throughout the application's lifecycle, thereby reducing both performance and security concerns.
 
@@ -27,17 +28,17 @@ Configuration management tools help developers keep track of the current state o
 
 ### Configuration Management concepts
 Most of Configuration Management tools are based on Infrastructure as Code principles.
-#### Declarative files
+#### *Declarative files*
 Declarative files handle the **WHAT** rather than the **HOW**. By focusing on the desired outcome instead of the specific steps to achieve it, declarative files abstract away unnecessary complexity. This approach simplifies the management process and allows users to concentrate on the essential aspects of their tasks.
-#### Idempotency
+#### *Idempotency*
 Is a property where no matter how many times you run a configuration file, the outcome should be the same. The tools assess the current state of the system against the desired final state. If the desired state has already been achieved, the tools determine that no further actions are needed and exit gracefully without applying any unnecessary changes. This idempotent behavior helps maintain system stability, avoids unnecessary configuration drift, and minimizes the risk of unintended modifications.
-#### Version Control
+#### *Version Control*
 Version control systems enable teams to track and manage changes made to configuration files over time. This provides several benefits such as enhances collaboration, traceability, reproducibility, and agility, making it an invaluable tool for effectively managing and maintaining configurations.
-#### Testing
+#### *Testing*
 Testing allows you to validate configuration changes throughout development lifecycle. It helps identify any potential issues, conflicts, or unintended consequences that may arise from the changes. Besides it involves verifying that the configured components, settings, and dependencies are functioning correctly and producing the expected results. Being an integral part of CI/CD pipelines ensuring that changes are thoroughly tested before being released.
-#### Modularity
+#### *Modularity*
 Modularity allows you to container different logical or functional divisions including best practices and compliance. To shared these containers across multiple teams or environments and get consistency. For example you can create modules related to network settings, database configurations, applications-specific configurations, etc. Within modularity, versioning is a key concept to track enhancements, fixes and compatibility.  
-#### Paralellism
+#### *Paralellism*
 Refers to the capability of executing multiple configuration tasks simultaneously or in parallel. It involves leveraging the power of parallel processing to increase efficiency, speed up deployments, and optimize resource utilization. Instead of executing tasks sequentially, try distributing configuration tasks across multiple resources or nodes, minimizing delays and bottlenecks. Be aware of the dependencies between specific tasks or prerequisites, this correct order execution will maintain consistency and avoid conflicts.
 
 # Common Tools
@@ -80,6 +81,12 @@ Playbooks are expressed in YAML format with a minimum of syntax, for example:
         mode: '0644'
       notify:
         - Restart Nginx service
+
+  handlers:
+    - name: Restart Nginx service
+      service:
+        name: nginx
+        state: restarted
 ```
 
 ### Inventory

@@ -1,29 +1,97 @@
 # RS School. DevOps from Zero to Hero educational program
+**Description:** This program aims to guide aspiring individuals through the fundamentals of DevOps, culminating in the knowledge and practical skills necessary for a Junior Systems Engineer role in the Cloud/DevOps field. We'll tackle different core concepts, methodologies, and tools used in the industry, along with interactive sessions to strengthen your learning.
 
-## Who are we?
-**The Rolling Scopes** is an independent international community of developers.
+### Course Goal
+- Gain enough knowledge and experience to qualify for a Junior Systems Engineer position in the Cloud/DevOps field.
+- Develop the necessary skills to excel in job interviews.
+- Build a portfolio showcasing your abilities and knowledge in DevOps.
 
-**RS School** is a free-of-charge and community-based education program run by the Rolling Scopes developer community since 2013.
-Thousands of graduated trainees in 11 countries and 500+ mentors around the world.
+### Admission to the Course
+- The course is open to all interested individuals.
+- This course is offered free of charge.
 
-#### What are our principles?
-- **Open to everyone.** Free courses, no obligations, and no contracts. No age limit. Only students’ time and dedication are required. Students can repeatedly attend courses.
-- **Open source philosophy.** [Our Learning Management System](https://github.com/rolling-scopes/rsschool-app) platform and education materials are publicly available on GitHub and YouTube.
-- **Teach it forward** According to this principle, students study at school for free, but we request that they return as mentors to pass on their knowledge to the next generation of students.
+### Prerequisites
 
-## RS AWS Club
-**RS AWS Club** - part of The Rolling Scopes focused on AWS technologies. We meet regularly to share ideas, answer questions, and learn about new services and best practices.
-
-### Useful links
-- [Video: Rolling Scopes School in Poland. Story of my journey.](https://wearecommunity.io/events/hitchhiker-s-guide-to-epam-in-poland/talks/18089)
-- [Video: Intro about RS Community and NodeJS Course](https://www.youtube.com/watch?v=PG7ZBHSi09k)
-- [Official documentation](https://docs.rs.school/#/en/)
-
-# DevOps from Zero to Hero educational program
-**TODO**
+Before starting the course, the student must:  
+- Have basic knowledge of Computer Science.
+- Be able to commit to studying for at least 10 hours per week.
+- Have a working knowledge of a programming language, preferably Python or JavaScript.
+- Have a basic understanding of operating systems, especially Linux.
 
 ### Learning Path
-**TODO**
+
+#### Week #1: RS School & DevOps Introduction
+- [Module "RS School & Course Introduction"](modules/intro/README.md)
+- [Module "Introduction to DevOps and its Principles"](modules/devops_intro/README.md)
+- [Module "Junior DevOps Engineer Job Requirements and Responsibilities]()
+- Live Q&A session. Real-world case studies discussion
+
+#### Week #2: Linux Basics 
+- [Module "Linux Basics]()
+
+#### Week #3: Networking
+- [Module "Networking Basics]()
+
+#### Week #4: Git 
+- **Goal:** Understand what git does, and how to apply it to projects involving source code, managing branches, and knowing patterns for it.
+
+#### Week #5: Cloud
+- **Goal:** Understand the basics of cloud computing, its types, and popular cloud service providers like AWS, GCP, and Azure.
+- [Module "AWS Cloud Practitioner Essentials"](modules/aws-cloud-practitioner-essentials/README.md)
+
+#### Week #6 AWS Cloud Quest
+- [Module "AWS Cloud Practitioner Quest"](modules/aws-cloud-practitioner-essentials/README.md)
+
+#### Week #7: Technical screening & mentors distibution
+- We will conduct interviews for the top 50 students based on their RS APP Scores. Following these interviews, those who perform better will be assigned a personal mentor.
+
+#### Week #8: CI/CD
+- **Goal:** Understand what CI/CD is, develop pipelines to automate code development, testing, and deployment using standard tools for the industry.
+- Practical assignment: Setting up a CI/CD pipeline
+- Mentor activities: Weekly meeting with students
+
+
+#### Week #9: Databases
+- **Goal:** Understand the basics of databases, SQL, NoSQL, and database management systems.
+- Mentor activities: Weekly meeting with students
+
+
+#### Week #10: Infrastructure as Code (IaC)
+- **Goal:** Understand the concept of IaC, its benefits, and popular tools like Terraform and CloudFormation.
+- Mentor activities: Weekly meeting with students
+
+#### Week #11: Configuration Management
+- **Goal:** Understand what Configuration Management is, its benefits, and how to use a common tool such as Ansible.
+- Mentor activities: Weekly meeting with students
+
+
+#### Week #12: Virtualization vs Containerization
+- **Goal:** Understand the differences between virtualization and containerization, and their applications in DevOps.
+- Mentor activities: Weekly meeting with students
+
+#### Week #13: Orchestration and Clustering
+- **Goal:** Understand the basics of orchestration, clustering, and popular tools like Kubernetes and Docker Swarm.
+- Mentor activities: Weekly meeting with students
+
+#### Week #14 Students Presentation & Online Meetup
+- Online meetup
+  - Real-world Case Studies
+  - Guest Lectures:  insights into real-world applications, current industry trends, and potential challenges.
+
+#### Week #15: Final Project
+- - ["Final Project"](modules/final-project/README.md)
+- 
+#### Week #16: Final Project
+- - ["Final Project"](modules/final-project/README.md)
+- Mentor activities: Weekly meeting with students
+
+#### Week #17: Final Project Presentation
+- - ["Final Project Presentation"](modules/final-project/README.md)
+
+#### Week #18 Mock interview. Career Guidance and Job Assistance
+ - Live session on the career guidance, resume building, and interview preparation
+ - Mock interview with a mentor. 
+Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.
 
 ### Communication
 

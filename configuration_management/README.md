@@ -8,7 +8,7 @@ These tools assist you in deploying and managing software on existing cloud infr
 
 
 <div align="center">
-    <img src="cm2.png">
+    <img src="cm.png">
 </div>
 
 
@@ -55,30 +55,36 @@ Offer a repeatable, re-usable, simple configuration management and multi-machine
 Playbooks are expressed in YAML format with a minimum of syntax, for example:
 ```yaml
 ---
-- name: Install and configure web server
-  hosts: web_servers
+- name: Install and configure Nginx
+  hosts: webservers
   become: true
-  
-  tasks:
-    - name: Update package cache
-      apt:
-        update_cache: yes
-      when: ansible_os_family == "Debian"
 
-    - name: Install Apache web server
-      package:
-        name: apache2
+  tasks:
+    - name: Install Nginx package
+      apt:
+        name: nginx
         state: present
 
-    - name: Start Apache service
+    - name: Enable and start Nginx service
       service:
-        name: apache2
+        name: nginx
         state: started
         enabled: yes
+
+    - name: Copy Nginx configuration file
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+        owner: root
+        group: root
+        mode: '0644'
+      notify:
+        - Restart Nginx service
 ```
 
 ### Inventory
-By default, Ansible represents the machines it manages in a file (INI, YAML, and so on) that puts all of your managed machines in groups of your own choosing.
+
+The inventory file(s) serve as a crucial input to Ansible, providing the context for executing tasks and configurations on target hosts. By properly defining hosts, groups, and variables in the inventory, you can effectively manage and orchestrate the desired infrastructure using Ansible playbooks. During playbook execution, you can specify the inventory file to use by using the `-i` or `--inventory` flag when running the ansible-playbook command. This allows you to select the appropriate inventory file for the target environment or operation.
 
 ```yaml
 ---
@@ -94,9 +100,10 @@ db1.example.com
 
 ### Dynamic Inventory
 
-If there’s another source of truth in your infrastructure, Ansible can also connect to that. Ansible can draw inventory, group, and variable information from sources like EC2, GCP, OpenStack, and more.
+Refers to a mechanism where the inventory information is generated dynamically at runtime rather than being defined in a static inventory file. Instead of manually maintaining an inventory file, dynamic inventory allows Ansible to retrieve host information from external sources. Ansible can draw inventory, group, and variable information from sources like AWS, GCP, OpenStack, and more. The same as with a static inventory, during playbook execution, you can specify the dynamic inventory file to use by using the `-i` or `--inventory` flag when running the ansible-playbook command.
 
 ```yaml
+---
 plugin: amazon.aws.aws_ec2
 regions:
   - us-east-1
@@ -120,24 +127,83 @@ compose:
 
 ### Ansible Benefits
 
-
-* Application Deployment: Ansible makes DevOps process easier by automating the deployment of internally developed applications to your environment systems. Ansible lets you quickly and easily deploy multi-tier apps. You won’t need to write custom code to automate your systems; you list the tasks required to be done by writing a playbook, and Ansible will figure out how to get your systems to the state you want them to be in. In other words, you won’t have to configure the applications on every machine manually.
-* Orchestration: With application deployment, you need to manage front-end, back-end services, databases, networks, storage, and so on. Also, you need to make sure that all the tasks are handled in the proper order.
-* Ansible uses automated workflows, provisioning, and more to make orchestrating tasks easy. Once you’ve defined your infrastructure using the Ansible playbooks, you can use that same orchestration wherever you need to.
-*   Security and Compliance: As with application deployment, site-wide security policies (e.g. firewall rules) can be implemented along with other automated processes. If you configure the security details on the control machine and run the associated playbook, all the remote hosts will automatically be updated with those details. That means you won’t need to monitor each machine for security compliance continually manually.
-*   Cloud Provisioning: With Ansible, you can provision cloud platforms, virtualized hosts, network devices, and bare-metal servers.
+* Ansible makes DevOps process easier by automating the deployment of internally developed applications to your environment systems. Ansible lets you quickly and easily deploy multi-tier apps. You won’t need to write custom code to automate your systems; you list the tasks required to be done by writing a playbook, and Ansible will figure out how to get your systems to the state you want them to be in. In other words, you won’t have to configure the applications on every machine manually.
+* With application deployment, you need to manage front-end, back-end services, databases, networks, storage, and so on. Also, you need to make sure that all the tasks are handled in the proper order.
+* As with application deployment, security policies can be implemented along with other automated processes. If you configure the security details on the control machine and run the associated playbook, all the remote hosts will automatically be updated with those details. That means you won’t need to monitor each machine for security compliance continually manually.
 
 ## Chef
 
+Chef is a powerful and flexible configuration management tool designed to streamline and automate the management of infrastructure and applications at scale. With Chef, organizations can easily define, deploy, and manage the desired state of their systems, ensuring consistency and reliability across their entire IT environment.
+
+At its core, Chef operates on a client-server architecture. The Chef server acts as a centralized repository for all the configuration data and cookbooks, which are sets of instructions for configuring and managing various components of the infrastructure. The Chef clients, installed on target systems, communicate with the server to retrieve the necessary configurations and apply them locally.
+
+Chef resources are defined using a simple and declarative Ruby-based language called the Chef DSL (Domain-Specific Language). By specifying the desired state of resources in recipes and cookbooks, Chef ensures that the system configuration remains consistent over time.
+
+### Recipies
+
+Chef recipes provide a powerful way to express and manage system configurations. They allow for the automation of complex tasks, such as installing software, configuring files, managing services, and more. By using recipes, you can define and enforce consistent configurations across your infrastructure, making it easier to scale, maintain, and ensure reliability.
+
+Recipes are typically bundled together in cookbooks, which are the primary units of organization in Chef. Cookbooks provide a structured way to group related recipes, templates, files, and other resources, making it easier to manage and share configuration code within an organization or community.
+
+```ruby
+# Recipe: webserver::nginx
+
+package 'nginx' do
+  action :install
+end
+
+service 'nginx' do
+  action [:enable, :start]
+end
+
+template '/etc/nginx/nginx.conf' do
+  source 'nginx.conf.erb'
+  owner 'root'
+  group 'root'
+  mode '0644'
+  notifies :restart, 'service[nginx]', :delayed
+end
+```
+### Cookbooks
+
+Cookbooks provide a structured and modular approach to managing system configurations in Chef. They allow for code reuse, encapsulation of logic, and organization of related resources. By leveraging cookbooks, you can easily manage and distribute configuration code, enforce consistency across systems, and enable collaboration and sharing within the Chef community.
+
+The cookbook's structure consists of a recipes directory where the recipe file (`nginx.rb`) resides, a templates directory that holds the template file (`nginx.conf.erb`), and a `metadata.rb` file that contains information about the cookbook, such as its name and dependencies.
+
+```
+webserver/
+├── recipes/
+│   └── nginx.rb
+├── templates/
+│   └── default/
+│       └── nginx.conf.erb
+└── metadata.rb
+```
+
+### Chef Benefits
+
+* Eliminates the need for manual intervention in system configuration and management, reducing human error and freeing up valuable time for IT teams.
+
+* Uses a DSL (Domain-Specific Language) based on Ruby to declare more easily complex configurations with less code.
+
+* Is designed to handle large-scale infrastructures, enabling organizations to manage thousands of nodes efficiently and consistently.
+
+* Supports a wide range of operating systems and platforms, enabling organizations to manage environments seamlessly.
+
+* Has an active community that contributes cookbooks and plugins, making it easy to leverage and share best practices with other users.
+
 ## Puppet
+
+
 
 # Workshop
 
 ```
 apt-get -y install ansible
 ansible-galaxy collection install community.docker
-docker run -dit --name test1 ubuntu
-docker run -dit --name test2 ubuntu
+docker run -dit --name web1 ubuntu --label product:web
+docker run -dit --name web2 ubuntu --label product:web
+docker run -dit --name db ubuntu --label product:db
 ansible-inventory --graph -i docker.yaml
 ansible-inventory -i docker.yaml -v --list
 
@@ -149,7 +215,7 @@ debug: true
 keyed_groups:
   - prefix: ''
     separator: ''
-    key: 'docker_config.Image'
+    key: 'docker_config.Labels'
 leading_separator: false
 
 ```

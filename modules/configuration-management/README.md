@@ -13,6 +13,7 @@
 - [Common Tools](#common-tools)
   - [Ansible](#ansible)
     - [Playbooks](#playbooks)
+    - [Roles](#roles)
     - [Inventory](#inventory)
     - [Dynamic Inventory](#dynamic-inventory)
     - [Ansible Benefits](#ansible-benefits)
@@ -123,6 +124,10 @@ Playbooks are expressed in YAML format with a minimum of syntax, for example:
         name: nginx
         state: restarted
 ```
+
+### Roles
+
+Ansible roles are a way to organize and encapsulate reusable parts of Ansible playbooks. They provide a structured and modular approach to writing configurations and allow you to share and reuse configurations across different playbooks and projects. Roles help make your Ansible playbooks more maintainable, scalable, and easier to understand.
 
 ### Inventory
 
@@ -319,25 +324,4 @@ When Puppet runs, it compiles the Puppet code (manifests) and any included modul
 - [Puppet Tutorial Video](#https://youtu.be/3hQiFuc-5kc)
 
 # Assignment
-
-```
-apt-get -y install ansible
-ansible-galaxy collection install community.docker
-docker run -dit --name web1 --label product:web ubuntu
-docker run -dit --name web2 --label product:web ubuntu
-docker run -dit --name db --label product:db ubuntu
-ansible-inventory --graph -i docker.yaml
-ansible-inventory -i docker.yaml -v --list
-
-
-plugin: community.docker.docker_containers
-docker_host: unix://var/run/docker.sock
-verbose_output: true
-debug: true
-keyed_groups:
-  - prefix: ''
-    separator: ''
-    key: 'docker_config.Labels'
-leading_separator: false
-
-```
+[Ansible Workshop](workshop.md)

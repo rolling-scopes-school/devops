@@ -1,5 +1,5 @@
 # Module "Configuration Management"  <!-- omit from toc --> 
-## In this module, students will study:
+## In this module, you will study:
 
 - [What is Configuration Management](#what-is-configuration-management)
   - [Benefits of using Configuration Management](#benefits-of-using-configuration-management)

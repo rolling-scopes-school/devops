@@ -13,4 +13,4 @@ In the KillerCoda scenario, you need to follow the below steps:
 4. Create the main Playbook and a variables file to configure WordPress
 5. Validate functionality
 
-### [Workshop Link](https://killercoda.com/rsschool-ansible/scenario/ansible-workshop)
+### [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)

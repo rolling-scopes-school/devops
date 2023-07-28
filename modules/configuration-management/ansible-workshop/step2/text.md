@@ -12,6 +12,13 @@ We will use the Docker plugin following the official documentation: https://docs
 
 First, we will define the Docker plugin and the host, by referencing the Docker Sock (where local Docker daemon is listening by default). Besides, enable the verbose_output to later use the `ansible-inventory` command and identify all the available dynamic inventory data per container. 
 
+```sh
+cd /root/
+nano dynamic_docker.yaml
+```{{exec}}
+
+***NOTE:*** To use nano, you should copy the code, paste it in the editor and save it with `CTRL+S` and then `CTRL+X`
+
 ```yaml
 # dynamic_docker.yaml
 ---
@@ -36,9 +43,8 @@ This will give us an extensive response of all docker containers dynamic invento
       ...
       "Labels": {
         ...
-        - "org.opencontainers.image.ref.name": "ubuntu",
-        - "org.opencontainers.image.version": "22.04",
-        - "type": "db" 
+        "com.docker.compose.version": "1.25.0",
+        "type": "web"
       }
     }
   }
@@ -49,7 +55,12 @@ This will give us an extensive response of all docker containers dynamic invento
 
 Based on this information, we need to create two different groups, one for `web`{{}} and the other one for `db`{{}}. To achieve this, we can use the `keyed_group`{{}} parameter.
 
-With `keyed_group`{{}}, you can define groups in your inventory file based on the values of specific variables associated with each host. The variables used as keys must be present in the dynamic inventory data. For this scenario, we will use the key as `docker_config.Labels.type` and Ansible will detect the `web`{{}} and `db`{{}} values. The `leading_separator`{{}} parameter will let us omit a leading underscore (or other separator) if no prefix is given.
+With `keyed_groups`{{}}, you can define groups in your inventory file based on the values of specific variables associated with each host. The variables used as keys must be present in the dynamic inventory data. For this scenario, we will use the key as `docker_config.Labels.type` and Ansible will detect the `web`{{}} and `db`{{}} values. The `leading_separator`{{}} parameter will let us omit a leading underscore (or other separator) if no prefix is given.
+
+```sh
+cd /root/
+nano dynamic_docker.yaml
+```{{exec}}
 
 ```yaml
 keyed_groups:
@@ -80,6 +91,11 @@ The tree graph shows us 3 groups, `db`, `ungrouped` and `web`. And its correspon
 ## Adding Custom Variables 
 
 Before moving forward, in this dynamic inventory file, you can also define custom variables for each host using the `compose`{{}} parameter, and use them in the playbook execution. These variables are created based on dynamic inventory data. For example, we will add a variable called `server_type`{{}} to identify the group that host belongs. 
+
+```sh
+cd /root/
+nano dynamic_docker.yaml
+```{{exec}}
 
 ```yaml
 compose: 

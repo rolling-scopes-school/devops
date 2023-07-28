@@ -6,8 +6,8 @@ set -e # exit once any command fails
 
 {
     date
-    ansible-inventory --graph -i dynamic_docker.yaml | grep web
-    ansible-inventory --graph -i dynamic_docker.yaml | grep db
+    ansible-inventory --graph -i dynamic_docker.yaml | grep "@web"
+    ansible-inventory --graph -i dynamic_docker.yaml | grep "@db"
 
 } >> ${LOGFILE} 2>&1
 

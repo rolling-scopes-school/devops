@@ -1,5 +1,5 @@
 {
     "items": [
-      { "path": "modules/configuration-management" }
+      { "path": "modules" }
     ]
 }

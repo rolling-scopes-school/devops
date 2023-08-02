@@ -1,11 +1,11 @@
 ```
-RS School.Linux
+RS School
+Week #2: Linux Basics
 
 ## Usage
-Open the presentation link
+Open the presentation link or use PDF file from the attachment
 
-## Link
-Presentation Draft, please visit:
-
-https://docs.google.com/presentation/d/1BmCwHYgyWQYWYZTjcPi_Y4B_bo8X01d_WlYdaesjTV4/edit?usp=sharing
+## Presentation
+Please visit: 
+https://www.canva.com/design/DAFnptjvWN0/81lhACyF4NXhUnEv4bUE9A/edit?utm_content=DAFnptjvWN0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ```

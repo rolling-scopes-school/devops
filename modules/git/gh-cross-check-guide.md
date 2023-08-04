@@ -16,3 +16,10 @@
 6.2) Registration is completed  
 ![Step 6-02](./gh-cross-check-guide-imgs/step-06_02.png)  
 
+## Creating repository  
+1) You could click plus button at the top (1) and click at "New repository" (2).  
+![Step 7](./gh-cross-check-guide-imgs/step-07.png)  
+2) Input course name `rss-devops-2023q3` to repository name and check "Add a README file" checkbox, after that click "Create repository" button.  
+![Step 8](./gh-cross-check-guide-imgs/step-08.png)  
+3) That's it. Repository has been created. :)
+

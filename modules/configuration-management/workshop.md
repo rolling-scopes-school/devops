@@ -9,7 +9,7 @@ In the KillerCoda scenario, you need to follow the below steps:
 
 1. Validate Ansible and Docker plugin installation
 2. Create a dynamic inventory and gather the containers in different groups
-3. Create multiple roles for each component of the applicantion (Apache, MySQL, WordPress, Prerequisites)
+3. Create multiple roles for each component of the application (Apache, MySQL, WordPress, Prerequisites)
 4. Create the main Playbook and a variables file to configure WordPress
 5. Validate functionality
 

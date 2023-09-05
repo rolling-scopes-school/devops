@@ -1,11 +1,6 @@
 # Containers
 
-### General intructions
-
-1. Go to ech part folder
-2. Review each content.md
-3. Complete the workshop checklist
-4. Repeat...
+### [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
 
 ## Part 1: Introduction to Containers and Docker
 
@@ -48,7 +43,7 @@
    * Creating pods, the smallest deployable units in Kubernetes.
    * Using ReplicaSets for scaling and load distribution.
 
-## Part 4: 
+## Part 4:
 
 1. **Deployments and Rolling Updates**
    * Using Deployments for declarative application updates.

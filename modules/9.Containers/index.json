@@ -1,0 +1,49 @@
+{
+    "title": "RSSchool Containers Workshop",
+    "description": "Let's learn how to manipulate containers with Docker and orchestrate with Kubernetes",
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh",
+            "foreground": "wait-init.sh"
+        },
+        "Parts": [
+            {
+                "title": "Part 1: Introduction to Containers and Docker",
+                "text": "Part1/workshop.md",
+                "verify": "Part1/verify.sh"
+            },
+            {
+                "title": "Part 2: Docker Compose and Multi-Container Applications",
+                "text": "Part2/workshop.md",
+                "verify": "Part2/verify.sh"
+            },
+            {
+                "title": "Part 3: Introduction to Kubernetes",
+                "text": "Part3/workshop.md",
+                "verify": "Part3/verify.sh"
+            },
+            {
+                "title": "Part 4: Kubernetes Deployment and Services",
+                "text": "Part4/workshop.md",
+                "verify": "Part4/verify.sh"
+            },
+            {
+                "title": "Part 5: Advanced Kubernetes Concepts",
+                "text": "Part5/workshop.md",
+                "verify": "Part5/verify.sh"
+            },
+            {
+                "title": "Part 6: Container Orchestration with Kubernetes",
+                "text": "Part6/workshop.md",
+                "verify": "Part6/verify.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

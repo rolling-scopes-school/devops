@@ -7,7 +7,7 @@
             "background": "setup.sh",
             "foreground": "wait-init.sh"
         },
-        "Parts": [
+        "steps": [
             {
                 "title": "Part 1: Introduction to Containers and Docker",
                 "text": "step1/text.md",

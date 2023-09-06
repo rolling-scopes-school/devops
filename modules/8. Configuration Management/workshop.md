@@ -5,7 +5,7 @@ Your task is to follow the KillerCoda workshop. Familiarize yourself with Ansibl
 
 **NOTE: The scenario will use Docker containers to simulate multiple servers.**
 
-In the KillerCoda scenario, you need to follow the below steps:
+In the KillerCoda scenario, you will follow the below steps:
 
 1. Validate Ansible and Docker plugin installation
 2. Create a dynamic inventory and gather the containers in different groups
@@ -14,3 +14,15 @@ In the KillerCoda scenario, you need to follow the below steps:
 5. Validate functionality
 
 ### [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
+
+## How to do the task?
+### 1. Sign into Killercoda 
+You could use your Github account
+### 2. Take the entire workshop - [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
+Once you finish it, do not close the environment!
+### 3. Execute an `echo` command with your github name in the KillerCoda environment console 
+For example `$echo rsschool-repository`
+### 4. Validate your participation!
+Take a screenshot of the completion screen `Thanks for participating in this Workshop!` and your github name in the KillerCoda environment console. Besides, it should contain the date and time.
+### 5. Cross-check
+Upload a screenshot to the RS School portal. Your result will be cross-checked by another student of the course, and you will have to check someone else result.

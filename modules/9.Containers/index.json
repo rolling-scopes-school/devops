@@ -10,13 +10,13 @@
         "Parts": [
             {
                 "title": "Part 1: Introduction to Containers and Docker",
-                "text": "Part1/workshop.md",
-                "verify": "Part1/verify.sh"
+                "text": "step1/workshop.md",
+                "verify": "step1/verify.sh"
             },
             {
                 "title": "Part 2: Docker Compose and Multi-Container Applications",
-                "text": "Part2/workshop.md",
-                "verify": "Part2/verify.sh"
+                "text": "step2/workshop.md",
+                "verify": "step2/verify.sh"
             },
             {
                 "title": "Part 3: Introduction to Kubernetes",

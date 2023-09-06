@@ -3,9 +3,7 @@ set -x
 echo starting...
 
 git clone https://github.com/rolling-scopes-school/devops.git
-git checkout feature/containers
 cd devops/modules/9.Containers/app/
+git checkout feature/containers
 
-
-mkdir ks
 echo done > /tmp/finished

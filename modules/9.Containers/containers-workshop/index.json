@@ -10,33 +10,33 @@
         "Parts": [
             {
                 "title": "Part 1: Introduction to Containers and Docker",
-                "text": "step1/workshop.md",
+                "text": "step1/text.md",
                 "verify": "step1/verify.sh"
             },
             {
                 "title": "Part 2: Docker Compose and Multi-Container Applications",
-                "text": "step2/workshop.md",
+                "text": "step2/text.md",
                 "verify": "step2/verify.sh"
             },
             {
                 "title": "Part 3: Introduction to Kubernetes",
-                "text": "Part3/workshop.md",
-                "verify": "Part3/verify.sh"
+                "text": "step3/text.md",
+                "verify": "step3/verify.sh"
             },
             {
                 "title": "Part 4: Kubernetes Deployment and Services",
-                "text": "Part4/workshop.md",
-                "verify": "Part4/verify.sh"
+                "text": "step4/text.md",
+                "verify": "step4/verify.sh"
             },
             {
                 "title": "Part 5: Advanced Kubernetes Concepts",
-                "text": "Part5/workshop.md",
-                "verify": "Part5/verify.sh"
+                "text": "step5/text.md",
+                "verify": "step5/verify.sh"
             },
             {
                 "title": "Part 6: Container Orchestration with Kubernetes",
-                "text": "Part6/workshop.md",
-                "verify": "Part6/verify.sh"
+                "text": "step6/text.md",
+                "verify": "step6/verify.sh"
             }
         ],
         "finish": {

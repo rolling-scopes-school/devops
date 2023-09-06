@@ -31,7 +31,11 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    ```sh
    docker ps
    ```{{exec}}
+   ```
+
+   ```sh
    export containerid=YOURCONTAINERID
+   ```{{exec}}
    ```
 6. Stop your docker container using your id
 
@@ -59,7 +63,7 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    ```
 10. Run your recently created docker image to validate the task
 
-   ```sh
-   docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest
-   ```{{exec}}
-   ```
+      ```sh
+      docker rm $containerid
+      ```{{exec}}
+      ```

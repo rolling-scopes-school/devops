@@ -10,7 +10,7 @@ set -e # exit once any command fails
     if [ "$http_status" -eq 200 ]; then
         echo "done" # let Validator know success
     else
-        exit
+        exit 1
     fi
 
 } >> ${LOGFILE} 2>&1

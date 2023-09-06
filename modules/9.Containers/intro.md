@@ -1,23 +1,50 @@
-Let's learn some basic commands to work with Ansible.
+Welcome to the Docker and Kubernetes Workshop! In this workshop, we will embark on a journey through the world of containerization and container orchestration, equipping you with the skills and knowledge needed to harness the power of Docker and Kubernetes.
 
-We will deploy WordPress with LAMP Stack (Linux, Apache, MySQL and PHP) using Ansible. The goal is to familiarize yourself with Ansible, from verifying the tool and requirements, to create multiple roles with `tasks`{{}}, `handlers`{{}} and `templates`{{}}, and use them in a playbook with variables to configure different Instances/ Virtual Machines/ Containers.
+## Workshop Overview
 
-In this KillerCoda scenario, you will follow the below steps:
+### Workshop Agenda
 
-1. Validate Ansible and Docker plugin installation
-2. Create a dynamic inventory and gather the containers in different groups
-3. Create multiple roles for each component of the applicantion (Apache, MySQL, WordPress, Prerequisites)
-4. Create the main Playbook and a variables file to configure WordPress
-5. Validate functionality
+**Part 1: Introduction to Containers and Docker**
 
-Ansible has already been installed in this environment and there are 2 Docker containers with the following structure:
+* Dive into the world of containers and understand why they have revolutionized modern application deployment. Learn how Docker simplifies containerization and enhances portability.
 
-```
-Docker/
-├── web1
-└── db1
-```
+**Part 2: Docker Compose and Multi-Container Applications**
 
-The idea of each container is to represent a unique host (Server/Virtual Machine/Instance), and let us group them into different groups based on the VM type. 
+* Explore Docker Compose for managing multi-container applications effortlessly. Discover how to define, link, and scale containers within a single application.
 
-To group them, each container was created with a label that corresponds to its type (e.g. type=web/db). 
+**Part 3: Introduction to Kubernetes**
+
+* Uncover the fundamentals of Kubernetes, the industry-standard container orchestration platform. Set up your own Kubernetes cluster, and learn how to deploy and manage pods.
+
+**Part 4: Kubernetes Deployment and Services**
+
+* Master the art of Kubernetes Deployments and Services. Understand how to ensure application availability, perform rolling updates, and balance loads efficiently.
+
+**Part 5: Advanced Kubernetes Concepts**
+
+* Delve into advanced Kubernetes concepts like ConfigMaps, Secrets, StatefulSets, and Helm for effective application configuration and management.
+
+**Part 6: Container Orchestration with Kubernetes**
+
+* Learn why container orchestration is essential and how Kubernetes excels at it. Explore scaling, load balancing, and configuration management in a Kubernetes environment.
+
+### Prerequisites
+
+To make the most of this workshop, participants should have:
+
+* Basic knowledge of Linux and command-line operations.
+* Familiarity with software development and basic networking concepts.
+* A laptop with administrative rights (for local installations).
+
+### Workshop Format
+
+Our workshop combines hands-on experience with in-depth theoretical knowledge. You'll not only learn about Docker and Kubernetes but also put that knowledge to work through practical exercises and demonstrations.
+
+### What You'll Gain
+
+By the end of this workshop, you will:
+
+* Understand the core concepts of containers and containerization.
+* Be proficient in Docker, Docker Compose, and Kubernetes.
+* Have hands-on experience deploying and managing containerized applications.
+* Gain insights into container orchestration best practices.

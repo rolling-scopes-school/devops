@@ -23,16 +23,13 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
 4. Run your recently created docker image
 
    ```sh
-   docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest
+   containerid=$(docker run -d --name mycontainer1 -p 80:80 myfirstcontainer:latest)
    ```{{exec}}
    ```
 5. List running containers and copy your container id
 
    ```sh
    docker ps
-   ```{{exec}}
-
-   export containerid=YOURCONTAINERID
    ```{{exec}}
    ```
 6. Stop your docker container using your id
@@ -41,12 +38,16 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    docker stop $containerid
    ```{{exec}}
    ```
-7. Start your docker container using your id
 
-   ```sh
-   docker start $containerid
-   ```{{exec}}
-   ```
+> **Take a moment to go to verify button and check what happen, Can you explain it?**
+
+   7. Start your docker container using your id
+
+      ```sh
+      docker start $containerid
+      ```{{exec}}
+      ```
+
 8. Kill your docker container using your id
 
    ```sh
@@ -61,7 +62,7 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    ```
 10. Run your recently created docker image to validate the task
 
-      ```sh
-      docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest
-      ```{{exec}}
-      ```
+    ```sh
+    docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest
+    ```{{exec}}
+    ```

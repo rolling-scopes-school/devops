@@ -31,9 +31,7 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    ```sh
    docker ps
    ```{{exec}}
-   ```
 
-   ```sh
    export containerid=YOURCONTAINERID
    ```{{exec}}
    ```
@@ -64,6 +62,6 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
 10. Run your recently created docker image to validate the task
 
       ```sh
-      docker rm $containerid
+      docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest
       ```{{exec}}
       ```

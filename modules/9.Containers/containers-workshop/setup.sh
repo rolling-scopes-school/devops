@@ -6,5 +6,5 @@ git clone https://github.com/rolling-scopes-school/devops.git
 cd devops
 git checkout feature/containers
 cd modules/9.Containers/app/
-
+mkdir logs
 echo done > /tmp/finished

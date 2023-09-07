@@ -1,6 +1,5 @@
 #!/bin/bash
 
-LOGFILE=/root/ks/step1-verify.log
 set -e # exit once any command fails
 
 {
@@ -13,4 +12,4 @@ set -e # exit once any command fails
         exit 1
     fi
 
-} >> ${LOGFILE} 2>&1
+}

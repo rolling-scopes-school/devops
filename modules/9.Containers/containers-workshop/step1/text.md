@@ -3,63 +3,24 @@
 Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/9.Containers/Par1), follow the following steps to run your first docker container:
 
 1. Verify your docker intallation
-
-   ```sh
-   docker --version
-   ```{{exec}}
-   ```
+   `docker --version`{{exec}}
 2. Go to /app
-
-   ```sh
-   cd devops/modules/9.Containers/app
-   ```{{exec}}
-   ```
+   `cd devops/modules/9.Containers/app`{{exec}}
 3. Build the docker image using dockerfile
-
-   ```sh
-   docker build -t myfirstcontainer:latest .
-   ```{{exec}}
-   ```
+   `docker build -t myfirstcontainer:latest .`{{exec}}
 4. Run your recently created docker image
-
-   ```sh
-   containerid=$(docker run -d --name mycontainer1 -p 80:80 myfirstcontainer:latest)
-   ```{{exec}}
-   ```
+   `containerid=$(docker run -d --name mycontainer1 -p 80:80 myfirstcontainer:latest)`{{exec}}
 5. List running containers and copy your container id
-
-   ```sh
-   docker ps
-   ```{{exec}}
-   ```
+   `docker ps`{{exec}}
 6. Stop your docker container using your id
-
-   ```sh
-   docker stop $containerid
-   ```{{exec}}
-   ```
-
+   `docker stop $containerid`{{exec}}`
 > **Take a moment to go to verify button and check what happen, Can you explain it?**
-
 7. Start your docker container using your id
-
    `docker start $containerid`{{exec}}
-   
 8. Kill your docker container using your id
-
-   ```sh
-   docker kill $containerid
-   ```{{exec}}
-   ```
+   `docker kill $containerid`{{exec}}
 9. Delete your docker container using your id
-
-   ```sh
-   docker rm $containerid
-   ```{{exec}}
-   ```
+   `docker rm $containerid`{{exec}}
 10. Run your recently created docker image to validate the task
+   `docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest`{{exec}}
 
-    ```sh
-    docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest
-    ```{{exec}}
-    ```

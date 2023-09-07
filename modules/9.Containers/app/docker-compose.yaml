@@ -1,8 +1,6 @@
 services:
   api:
-    build:
-      context: .
-      target: builder
+    image: myfirstcontainer:latest
     container_name: fastapi-application
     environment:
       PORT: 8000

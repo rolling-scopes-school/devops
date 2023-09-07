@@ -41,13 +41,10 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
 
 > **Take a moment to go to verify button and check what happen, Can you explain it?**
 
-   7. Start your docker container using your id
+7. Start your docker container using your id
 
-      ```sh
-      docker start $containerid
-      ```{{exec}}
-      ```
-
+   `docker start $containerid`{{exec}}
+   
 8. Kill your docker container using your id
 
    ```sh

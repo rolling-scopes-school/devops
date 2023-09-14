@@ -18,3 +18,7 @@ With knowledge in both DevOps and cloud technologies, an understanding of infras
 - [AWS Infrastructure as Code Workshops. ](https://www.workshops.aws/categories/Infrastructure%20as%20Code)
 - [Azure Infrastructure as Code Workshop ](https://azuredevcollege.com/iac-basics-workshop/#azure-resource-manager )
 - [Getting Started with Terraform for Google Cloud ](https://www.cloudskillsboost.google/course_templates/443)
+
+
+### Cross-check 
+- [Link to the cross-check documentation](https://docs.app.rs.school/#/platform/cross-check-flow)  

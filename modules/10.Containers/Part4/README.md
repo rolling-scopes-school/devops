@@ -1,4 +1,3 @@
-
 ## Part 4: Kubernetes Deployment and Services
 
 ### 1. Deployments and Rolling Updates
@@ -99,33 +98,4 @@ spec:
                 name: nginx-service
                 port:
                   number: 80
-```
-
-#### Load Balancing and SSL Termination
-
-Ingress controllers can also handle SSL termination, enabling secure communication with your services.
-
-Example Ingress with SSL termination:
-
-```yaml
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: my-ingress
-spec:
-  rules:
-    - host: myapp.example.com
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: nginx-service
-                port:
-                  number: 80
-  tls:
-    - hosts:
-        - myapp.example.com
-      secretName: my-tls-secret
 ```

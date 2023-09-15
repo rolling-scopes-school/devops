@@ -1,6 +1,6 @@
 # Part 1: Introduction to Containers and Docker
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/9.Containers/Par1), follow the following steps to run your first docker container:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/9.Containers/Part1), follow the following steps to run your first docker container:
 
 > **Take a moment in step 6 to go to verify button and check what happens, Can you explain it?**
 

@@ -1,15 +1,13 @@
 ## Part 2: Docker Compose and Multi-Container Applications
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/9.Containers/Par2), follow the following steps to run your first docker container:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part2), follow the following steps to run your first docker container:
 
 > **Take a moment in step 7 to go to verify button and check what happens, Can you explain it?**
 
 1. Verify your docker compose intallation
 
    `docker-compose --version`{{exec}}
-2. Go to /app
-
-   `cd devops/modules/9.Containers/app`{{exec}}
+2. **Write a docker compose file in docker-compose.yaml to expose the container we build, remember that the container should be exposed in port 8000.**
 3. Run the docker compose app with prepared file
 
    `docker-compose up`{{exec}}

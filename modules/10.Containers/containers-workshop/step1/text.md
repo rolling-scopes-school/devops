@@ -7,30 +7,27 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
 1. Verify your docker intallation
 
    `docker --version`{{exec}}
-2. Go to /app
-
-   `cd devops/modules/10.Containers/app`{{exec}}
-3. Build the docker image using dockerfile
+2. Build the docker image using dockerfile
 
    `docker build -t myfirstcontainer:latest .`{{exec}}
-4. Run your recently created docker image
+3. Run your recently created docker image
 
    `containerid=$(docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest) | echo $containerid`{{exec}}
-5. List running containers
+4. List running containers
 
    `docker ps`{{exec}}
-6. Stop your docker container
+5. Stop your docker container
 
    `docker stop $containerid`{{exec}}`
-7. Start your docker container
+6. Start your docker container
 
    `docker start $containerid`{{exec}}
-8. Kill your docker container
+7. Kill your docker container
 
    `docker kill $containerid`{{exec}}
-9. Delete your docker container
+8. Delete your docker container
 
    `docker rm $containerid`{{exec}}
-10. Run your recently created docker image to validate the task
+9. Run your recently created docker image to validate the task
 
-    `docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest`{{exec}}
+   `docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest`{{exec}}

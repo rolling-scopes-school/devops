@@ -44,6 +44,6 @@
         }
     },
     "backend": {
-        "imageid": "ubuntu"
+        "imageid": "kubernetes-k3s-1node"
     }
 }

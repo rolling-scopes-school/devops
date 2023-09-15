@@ -9,7 +9,7 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    `docker --version`{{exec}}
 2. Go to /app
 
-   `cd devops/modules/9.Containers/app`{{exec}}
+   `cd devops/modules/10.Containers/app`{{exec}}
 3. Build the docker image using dockerfile
 
    `docker build -t myfirstcontainer:latest .`{{exec}}

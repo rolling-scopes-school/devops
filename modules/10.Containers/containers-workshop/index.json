@@ -44,6 +44,6 @@
         }
     },
     "backend": {
-        "imageid": "kubernetes-kubeadm-1node"
+        "imageid": "ubuntu"
     }
 }

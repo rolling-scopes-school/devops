@@ -2,8 +2,6 @@
 
 Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part2), follow the following steps to run your first docker container:
 
-> **Take a moment in step 7 to go to verify button and check what happens, Can you explain it?**
-
 1. Verify your docker compose intallation
 
    `docker-compose --version`{{exec}}

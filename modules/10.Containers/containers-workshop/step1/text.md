@@ -7,33 +7,36 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
 1. Verify your docker intallation
 
    `docker --version`{{exec}}
-2. Build the docker image using dockerfile
+2. Go to /app
 
-   `docker build -t localhost:5000/myfirstcontainer:latest .`{{exec}}
-3. Tag to push to local registry
+   `cd devops/modules/10.Containers/app`{{exec}}
+3. Build the docker image using dockerfile
+
+   `docker build -t myfirstcontainer:latest .`{{exec}}
+4. Tag to push to local registry
 
    `docker tag myfirstcontainer:latest localhost:5000/myfirstcontainer:latest`{{exec}}
-4. Push to local registry
+5. Push to local registry
 
    `docker push localhost:5000/myfirstcontainer:latest`{{exec}}
-5. Run your recently created docker image
+6. Run your recently created docker image
 
-   `containerid=$(docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest) | echo $containerid`{{exec}}
-6. List running containers
+   `containerid=$(docker run -d --name mycontainer111 -p 80:80 myfirstcontainer:latest)`{{exec}}
+7. List running containers
 
    `docker ps`{{exec}}
-7. Stop your docker container
+8. Stop your docker container
 
    `docker stop $containerid`{{exec}}`
-8. Start your docker container
+9. Start your docker container
 
    `docker start $containerid`{{exec}}
-9. Kill your docker container
+10. Kill your docker container
 
-   `docker kill $containerid`{{exec}}
-10. Delete your docker container
+    `docker kill $containerid`{{exec}}
+11. Delete your docker container
 
     `docker rm $containerid`{{exec}}
-11. Run your recently created docker image to validate the task
+12. Run your recently created docker image to validate the task
 
     `docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest`{{exec}}

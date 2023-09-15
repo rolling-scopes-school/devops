@@ -21,7 +21,7 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    `docker push localhost:5000/myfirstcontainer:latest`{{exec}}
 6. Run your recently created docker image
 
-   `containerid=$(docker run -d --name mycontainer111 -p 80:80 myfirstcontainer:latest)`{{exec}}
+   `containerid=$(docker run -d --name mycontainer -p 8001:8001 myfirstcontainer:latest)`{{exec}}
 7. List running containers
 
    `docker ps`{{exec}}

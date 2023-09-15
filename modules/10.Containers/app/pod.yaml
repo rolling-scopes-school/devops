@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: api
-      image: myfirstcontainer:latest
+      image: localhost:5000/myfirstcontainer:latest
       imagePullPolicy: Never
       ports:
         - containerPort: 8000

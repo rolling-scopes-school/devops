@@ -1,7 +1,6 @@
-
 ## Part 3: Introduction to Kubernetes
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part3), follow the following steps to run your first docker container:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part3), follow the following steps to run your first container using Kubernetes:
 
 1. Verify your kubectl intallation
 
@@ -25,3 +24,5 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
 
    `kubectl delete pod fastapi-pod`{{exec}}
 8. **Now, complete the replicaset.yaml file to create two replicas of the fastapi application and run it. Click in validate once you are ready.**
+
+   `kubectl apply -f replicaset.yaml`{{exec}}

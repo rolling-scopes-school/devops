@@ -1,6 +1,6 @@
 {
     "items": [
-      { "path": "8. Configuration Management/ansible-workshop" },
+      { "path": "08. Configuration Management/ansible-workshop" }
       { "path": "10.Containers/containers-workshop" }
     ]
 }

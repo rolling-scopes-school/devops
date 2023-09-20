@@ -43,7 +43,7 @@
    * Creating pods, the smallest deployable units in Kubernetes.
    * Using ReplicaSets for scaling and load distribution.
 
-## Part 4:
+## Part 4: Kubernetes Deployment and Services
 
 1. **Deployments and Rolling Updates**
    * Using Deployments for declarative application updates.
@@ -53,7 +53,6 @@
    * ClusterIP, NodePort, and LoadBalancer Services.
 3. **Ingress and Load Balancing**
    * Configuring Ingress controllers for external access.
-   * Load balancing and SSL termination.
 
 ## Part 5: Advanced Kubernetes Concepts
 

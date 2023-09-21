@@ -1,6 +1,6 @@
 ## Part 5: Advanced Kubernetes Concepts
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part5), follow the following steps to run your first helm chart:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part5), follow the following steps to run your first helm chart
 
 1. Verify your kubectl intallation
 

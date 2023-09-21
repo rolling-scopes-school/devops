@@ -2,11 +2,12 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-firts-loadbalancer
+# remove under here 
 spec:
   selector:
     app: fastapi
   ports:
     - protocol: TCP
-      port: 8500
+      port: 3500
       targetPort: 8000
   type: LoadBalancer

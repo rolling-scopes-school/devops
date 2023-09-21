@@ -1,0 +1,73 @@
+{
+  "title": "Linux Command Line Workshop",
+  "description": "Command-line basics",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Command-line basics, pt. 1: mkdir, touch",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 2: rmdir, rm, nano text editor",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 3: cp",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 4: mv",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 5: conditional cp & mv",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 6: file permissions",
+        "text": "step6/text.md",
+        "verify": "step6/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 7: cat, less, head, tail",
+        "text": "step7/text.md",
+        "verify": "step7/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 8: input, output, redirection",
+        "text": "step8/text.md",
+        "verify": "step8/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 9. input, output, redirection",
+        "text": "step9/text.md",
+        "verify": "step9/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 10: pipes, grep, sort",
+        "text": "step10/text.md",
+        "verify": "step10/verify.sh"
+      },
+      {
+        "title": "Command-line basics, pt. 11: sed, redirection",
+        "text": "step11/text.md",
+        "verify": "step11/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

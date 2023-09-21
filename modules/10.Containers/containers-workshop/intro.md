@@ -24,10 +24,6 @@ Welcome to the Docker and Kubernetes Workshop! In this workshop, we will embark 
 
 * Delve into advanced Kubernetes concepts like ConfigMaps, Secrets, StatefulSets, and Helm for effective application configuration and management.
 
-**Part 6: Container Orchestration with Kubernetes**
-
-* Learn why container orchestration is essential and how Kubernetes excels at it. Explore scaling, load balancing, and configuration management in a Kubernetes environment.
-
 ### Prerequisites
 
 To make the most of this workshop, participants should have:

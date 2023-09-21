@@ -1,15 +1,19 @@
-# Checklist
+## Part 5: Advanced Kubernetes Concepts
 
-Based on the content that you can find in content.md, follow the following steps to run your first docker container:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part5), follow the following steps to run your first helm chart:
 
-> To verify run `../Part5/verify.sh` and check the script log.
+1. Verify your kubectl intallation
 
-* [ ] Install Docker
-* [ ] Go to /app
-* [ ] `docker build -t myfirstcontainer:latest .`
-* [ ] `docker run -d --name mycontainer -p 80:80 myfirstcontainer:latest` and verify
-* [ ] `docker ps` copy the container id
-* [ ] `docker stop $containerid` and verify
-* [ ] `docker start $containerid` and verify
-* [ ] `docker kill $containerid` and verify
-* [ ] `docker rm $containerid` and verify
+   `kubectl version`{{exec}}
+2. Apply the deployment definition to create the Pod in your Kubernetes cluster
+
+   `kubectl apply -f deployment.yaml`{{exec}}
+3. Verify that the deployment is running and ready:
+
+   `kubectl get pods`{{exec}}
+4. Delete your pod
+
+   `kubectl delete pod YOUR_POD_NAME`{{exec}}
+5. **Now, complete the service.yaml file to create to create a LoadBalancer Service for the previous deployment, be sure that you expose the deployment in port 3500.**
+
+   `kubectl apply -f service.yaml`{{exec}}

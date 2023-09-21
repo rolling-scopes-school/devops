@@ -19,7 +19,7 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    `export containerid=`{{copy}}
 7. Stop your docker container using your id
 
-   `docker stop $containerid`{{exec}}`
+   `docker stop $containerid`{{exec}}
 8. Start your docker container using your id
 
    `docker start $containerid`{{exec}}

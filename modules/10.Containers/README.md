@@ -64,15 +64,3 @@
    * Configuring Persistent Volumes for data persistence.
 3. **Introduction to Helm**
    * Packaging, sharing, and deploying applications using Helm charts.
-
-## Part 6: Container Orchestration with Kubernetes
-
-1. **Introduction to Container Orchestration**
-   * Understanding the need for orchestration.
-   * Kubernetes as a container orchestration platform.
-2. **Scaling and Load Balancing**
-   * Horizontal and vertical scaling in Kubernetes.
-   * Load balancing strategies for distributed applications.
-3. **Managing Application Configuration**
-   * Using ConfigMaps and environment variables for configuration management.
-   * Handling different configurations for different environments.

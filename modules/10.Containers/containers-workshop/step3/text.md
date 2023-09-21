@@ -16,13 +16,13 @@ Based on the content that you can [find in the repo](https://github.com/rolling-
    `kubectl logs fastapi-pod`{{exec}}
 5. Expose the port of your pod to test if it is running
 
-   `kubectl port-forward fastapi-pod 8000:8000 &`{{exec}}
+   `kubectl port-forward fastapi-pod 8300:8000 &`{{exec}}
 6. Check application with curl
 
-   `curl localhost:8000`{{exec}}`
+   `curl localhost:8300`{{exec}}
 7. Delete your pod
 
    `kubectl delete pod fastapi-pod`{{exec}}
-8. **Now, complete the replicaset.yaml file to create two replicas of the fastapi application and run it. Click in validate once you are ready.**
+8. **Now, complete the replicaset.yaml file to create two replicas of the fastapi application and run it(Take as example the pod.yaml file with image and imagepullpolicy). Click in validate once you are ready.**
 
    `kubectl apply -f replicaset.yaml`{{exec}}

@@ -1,11 +1,18 @@
 #!/bin/bash
 
-# Send a GET request to localhost:80 and store the HTTP status code in a variable
-http_status=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:80)
+set -e # exit once any command fails
 
-# Check if the HTTP status code is 200
-if [ "$http_status" -eq 200 ]; then
-    echo "Application is up and running"
-else
-    echo "Application is not working"
-fi
+{
+    EXTERNAL_IP=$(kubectl get svc -o jsonpath='{.items[1].spec.clusterIPs[0]}')
+
+    # Check if the current number of replicas matches the expected number
+    http_status=$(curl -s -o /dev/null -w "%{http_code}" http://$EXTERNAL_IP:3500)
+
+    # Check if the HTTP status code is 200
+    if [ "$http_status" -eq 200 ]; then
+        echo "done" # let Validator know success
+    else
+        exit 1
+    fi
+
+}

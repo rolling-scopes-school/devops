@@ -53,7 +53,7 @@ By the end of this workshop, you will:
 
 You could use your Github account
 
-### 2. Take the entire workshop - [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
+### 2. Take the entire workshop - [Workshop Link](https://killercoda.com/rsschool/course/modules/containers-workshop)
 
 Once you finish it, do not close the environment!
 

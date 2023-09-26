@@ -60,14 +60,14 @@
    * Configuring Persistent Volumes for data persistence.
 3. **Introduction to Helm**
    * Packaging, sharing, and deploying applications using Helm charts.
-   
+
 ## How to do the task?
 
 ### 1. Sign into Killercoda
 
 You could use your Github account
 
-### 2. Take the entire workshop - [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
+### 2. Take the entire workshop - [Workshop Link](https://killercoda.com/rsschool/course/modules/containers-workshop)
 
 Once you finish it, do not close the environment!
 

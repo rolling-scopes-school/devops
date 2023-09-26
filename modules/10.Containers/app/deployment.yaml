@@ -15,7 +15,6 @@ spec:
       containers:
         - name: api
           image: localhost:5000/myfirstcontainer:latest
-          #image: myfirstcontainer:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000

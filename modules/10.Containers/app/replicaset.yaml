@@ -2,23 +2,3 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: fastapi-replicaset
-# remove under here 
-spec:
-  replicas: 2 # You can adjust the number of replicas as needed
-  selector:
-    matchLabels:
-      app: fastapi-application
-  template:
-    metadata:
-      labels:
-        app: fastapi-application
-    spec:
-      containers:
-        - name: api
-          image: localhost:5000/myfirstcontainer:latest
-          imagePullPolicy: IfNotPresent
-          ports:
-            - containerPort: 8000
-          env:
-            - name: PORT
-              value: "8000"

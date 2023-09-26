@@ -12,11 +12,3 @@ spec:
       env:
         - name: PORT
           value: "8000"
-      #Remove here
-      volumeMounts:
-        - name: host-path-volume
-          mountPath: /app  # Replace with the desired mount path in the container
-  volumes:
-    - name: host-path-volume
-      hostPath:
-        path: /root/devops/modules/10.Containers/app  # Replace with the local path on your host machine

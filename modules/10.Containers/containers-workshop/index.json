@@ -32,6 +32,16 @@
                 "title": "Part 5: Advanced Kubernetes Concepts",
                 "text": "step5/text.md",
                 "verify": "step5/verify.sh"
+            },
+            {
+                "title": "Part 5: Advanced Kubernetes Concepts",
+                "text": "step6/text.md",
+                "verify": "step6/verify.sh"
+            },
+            {
+                "title": "Part 5: Advanced Kubernetes Concepts",
+                "text": "step7/text.md",
+                "verify": "step7/verify.sh"
             }
         ],
         "finish": {

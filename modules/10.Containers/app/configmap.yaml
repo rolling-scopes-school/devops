@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config
+# remove under here 
+data:
+  CUSTOM_MESSAGE: "RSSCHOOL" # Replace with your desired port value

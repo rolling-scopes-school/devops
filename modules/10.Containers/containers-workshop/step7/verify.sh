@@ -3,10 +3,10 @@
 set -e # exit once any command fails
 
 {
-    EXTERNAL_IP=$(kubectl get svc -o jsonpath='{.items[1].spec.clusterIPs[1]}')
+    EXTERNAL_IP=$(kubectl get svc -o jsonpath='{.items[1].spec.clusterIPs[0]}')
 
     # Check if the current number of replicas matches the expected number
-    http_status=$(curl -s -o /dev/null -w "%{http_code}" http://$EXTERNAL_IP:4000)
+    http_status=$(curl -s -o /dev/null -w "%{http_code}" http://$EXTERNAL_IP:3500)
 
     # Check if the HTTP status code is 200
     if [ "$http_status" -eq 200 ]; then

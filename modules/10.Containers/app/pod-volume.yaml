@@ -1,18 +1,22 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: fastapi-pod
+  name: fastapi-pod-volume
 spec:
   containers:
     - name: api
-      image: myfirstcontainer:latest
+      image: localhost:5000/myfirstcontainer:latest
       imagePullPolicy: IfNotPresent
       ports:
         - containerPort: 8000
+      env:
+        - name: PORT
+          value: "8000"
+      #Remove here
       volumeMounts:
         - name: host-path-volume
           mountPath: /app  # Replace with the desired mount path in the container
   volumes:
     - name: host-path-volume
       hostPath:
-        path: /mnt/c/Users/Alvaro_Vera/Desktop/RSSchool/modules/10.Containers/app  # Replace with the local path on your host machine
+        path: /root/devops/modules/10.Containers/app  # Replace with the local path on your host machine

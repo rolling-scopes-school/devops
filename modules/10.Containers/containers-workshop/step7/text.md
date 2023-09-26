@@ -1,6 +1,6 @@
 
 ## Part 5: Advanced Kubernetes Concepts
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part5), follow the following steps to the application using configmaps
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part5), complete the following task to create your first Helm Chart
 
-1. **Fill configmap.yaml to add a configmap with a environment variable CUSTOM_MESSAGE with today's date. Then using kubectl create the configmap and the pod and ensure it's running. Then create a custom loadbalancer taking as example service.yaml to expose kubernetes port 9000 through machine port 4000.**
+1. **It's time to use all you have learnt in this jurney. Your last task is to create a Helm Chart to expose the application in port 9000, this Helm chart need to include a volume as done in previous task**

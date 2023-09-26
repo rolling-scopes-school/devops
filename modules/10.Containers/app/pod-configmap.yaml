@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: fastapi-pod
+  name: fastapi-pod-configmap
 spec:
   containers:
     - name: api

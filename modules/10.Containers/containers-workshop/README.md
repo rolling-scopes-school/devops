@@ -4,8 +4,6 @@ Welcome to the Docker and Kubernetes Workshop! In this workshop, we will embark 
 
 ## Workshop Overview
 
-### [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
-
 ### Workshop Agenda
 
 **Part 1: Introduction to Containers and Docker**
@@ -28,10 +26,6 @@ Welcome to the Docker and Kubernetes Workshop! In this workshop, we will embark 
 
 * Delve into advanced Kubernetes concepts like ConfigMaps, Secrets, StatefulSets, and Helm for effective application configuration and management.
 
-**Part 6: Container Orchestration with Kubernetes**
-
-* Learn why container orchestration is essential and how Kubernetes excels at it. Explore scaling, load balancing, and configuration management in a Kubernetes environment.
-
 ### Prerequisites
 
 To make the most of this workshop, participants should have:
@@ -53,67 +47,24 @@ By the end of this workshop, you will:
 * Have hands-on experience deploying and managing containerized applications.
 * Gain insights into container orchestration best practices
 
-### [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
+## How to do the task?
 
-## Part 1: Introduction to Containers and Docker
+### 1. Sign into Killercoda
 
-1. **Introduction to Containers**
-   * What are containers and why are they important?
-   * Container vs. Virtual Machine (VM) comparison.
-2. **Getting Started with Docker**
-   * Installing Docker on various platforms (Windows, macOS, Linux).
-   * Docker architecture: Docker Engine, images, and containers.
-3. **Working with Docker Images**
-   * Understanding Docker images and layers.
-   * Building custom Docker images using Dockerfiles.
-4. **Running Containers**
-   * Pulling and running Docker images from Docker Hub.
-   * Container lifecycle: starting, stopping, and removing containers.
-   * Mapping ports and volumes between host and container.
+You could use your Github account
 
-## Part 2: Docker Compose and Multi-Container Applications
+### 2. Take the entire workshop - [Workshop Link](https://killercoda.com/rsschool/course/modules/ansible-workshop)
 
-1. **Introduction to Docker Compose**
-   * What is Docker Compose and why is it used?
-   * Writing a `docker-compose.yml` file.
-2. **Managing Multi-Container Applications**
-   * Defining and linking multiple containers using Docker Compose.
-   * Environment variables and secrets in Docker Compose.
-   * Running and scaling multi-container applications.
-3. **Data Management and Volumes**
-   * Understanding Docker volumes for persistent data storage.
-   * Managing data between containers and the host.
+Once you finish it, do not close the environment!
 
-## Part 3: Introduction to Kubernetes
+### 3. Execute an `echo` command with your github name in the KillerCoda environment console
 
-1. **Introduction to Kubernetes**
-   * What is Kubernetes and why is it important?
-   * Kubernetes components: master and nodes.
-2. **Setting Up a Kubernetes Cluster**
-   * Installing Kubernetes using kubeadm or managed solutions (like Minikube).
-   * Configuring `kubectl` for cluster communication.
-3. **Pods and ReplicaSets**
-   * Creating pods, the smallest deployable units in Kubernetes.
-   * Using ReplicaSets for scaling and load distribution.
+For example `$echo rsschool-repository`
 
-## Part 4: Kubernetes Deployment and Services
+### 4. Validate your participation!
 
-1. **Deployments and Rolling Updates**
-   * Using Deployments for declarative application updates.
-   * Performing rolling updates and rollbacks.
-2. **Services and Networking**
-   * Exposing applications within a cluster using Services.
-   * ClusterIP, NodePort, and LoadBalancer Services.
-3. **Ingress and Load Balancing**
-   * Configuring Ingress controllers for external access.
+Take a screenshot of the completion screen `Thanks for participating in this Workshop!` and your github name in the KillerCoda environment console. Besides, it should contain the date and time.
 
-## Part 5: Advanced Kubernetes Concepts
+### 5. Cross-check
 
-1. **ConfigMaps and Secrets**
-   * Managing configuration data using ConfigMaps.
-   * Handling sensitive data using Secrets.
-2. **Persistent Volumes and StatefulSets**
-   * Managing stateful applications using StatefulSets.
-   * Configuring Persistent Volumes for data persistence.
-3. **Introduction to Helm**
-   * Packaging, sharing, and deploying applications using Helm charts.
+Upload a screenshot to the RS School portal. Your result will be cross-checked by another student of the course, and you will have to check someone else result.

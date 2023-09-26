@@ -3,7 +3,7 @@
 set -e # exit once any command fails
 
 {
-    http_status=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:2850)
+    http_status=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:2850/file)
 
     # Check if the HTTP status code is 200
     if [ "$http_status" -eq 200 ]; then

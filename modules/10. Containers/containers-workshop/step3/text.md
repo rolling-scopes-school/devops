@@ -1,6 +1,6 @@
 ## Part 3: Introduction to Kubernetes
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part3), follow the following steps to run your first container using Kubernetes:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10. Containers/Part3), follow the following steps to run your first container using Kubernetes:
 
 1. Start a local registry
 

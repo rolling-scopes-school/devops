@@ -1,6 +1,6 @@
 ## Part 4: Kubernetes Deployment and Services
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part4), follow the following steps to run your first kubernetes deployment:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10. Containers/Part4), follow the following steps to run your first kubernetes deployment:
 
 1. Verify your kubectl intallation
 

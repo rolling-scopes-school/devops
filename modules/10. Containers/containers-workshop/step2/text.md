@@ -1,6 +1,6 @@
 ## Part 2: Docker Compose and Multi-Container Applications
 
-Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10.Containers/Part2), follow the following steps to run your first docker container using docker-compose:
+Based on the content that you can [find in the repo](https://github.com/rolling-scopes-school/devops/modules/10. Containers/Part2), follow the following steps to run your first docker container using docker-compose:
 
 1. Verify your docker compose intallation
 

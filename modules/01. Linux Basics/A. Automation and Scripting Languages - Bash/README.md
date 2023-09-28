@@ -1,4 +1,4 @@
 # KillerCoda challenges
 
- - BASh scripting challenges
+ - Bash scripting challenges
  - CLI commands challenges

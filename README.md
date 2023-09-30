@@ -30,7 +30,7 @@ Before starting the course, the student must:
 - [Module "Linux Basics]()
 
 #### Week #3: Networking
-- [Module "Networking Basics]()
+- [Module "Networking Basics](modules/Networking Basics/README.md)
 
 #### Week #4: Git 
 - [Module "Git](modules/git/README.md)

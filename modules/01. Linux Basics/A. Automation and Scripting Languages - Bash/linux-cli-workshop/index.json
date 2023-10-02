@@ -1,6 +1,6 @@
 {
-  "title": "Linux Command Line Workshop",
-  "description": "Command-line basics",
+  "title": "RSSchool Linux CLI Workshop",
+  "description": "Let's learn how to use linux terminal easily and efficiently",
   "details": {
     "intro": {
       "text": "intro.md",

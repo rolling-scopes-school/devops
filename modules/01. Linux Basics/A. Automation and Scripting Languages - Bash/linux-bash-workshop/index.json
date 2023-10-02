@@ -1,6 +1,6 @@
 {
-  "title": "Linux Command Line Workshop",
-  "description": "Bash script basics",
+  "title": "RSSchool Linux Bash Workshop",
+  "description": "Let's learn how to create efficient bash scripts with ease",
   "details": {
     "intro": {
       "text": "intro.md",

@@ -28,7 +28,7 @@ Before starting the course, the student must:
 
 #### Week #1: Linux Basics
 - [Module: 01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
-- [--- A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
+  - [A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
 
 #### Week #2: Networking Basics
 - [Module: 02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
@@ -43,59 +43,56 @@ Before starting the course, the student must:
   - [AWS Cloud Practitioner Essentials](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Essentials/README.md)
   - [AWS Cloud Practitioner Quests](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Quests/README.md)
 
-#### Week #5: AWS General Immersion Day
-https://catalog.workshops.aws/general-immersionday/
+#### Week #4.5: AWS General Immersion Day
+- [AWS Inmersion Day](https://catalog.workshops.aws/general-immersionday/)
 
-#### Week #6 AWS Cloud Quest
-- [Module "AWS Cloud Practitioner Quest"](modules/aws-cloud-practitioner-essentials/README.md)
-
-#### Week #7: Technical screening & mentors distibution
-- We will conduct interviews for the top 50 students based on their RS APP Scores. Following these interviews, those who perform better will be assigned a personal mentor.
-
-#### Week #8: CI/CD
+#### Week #5: CI/CD
 - **Goal:** Understand what CI/CD is, develop pipelines to automate code development, testing, and deployment using standard tools for the industry.
 - Practical assignment: Setting up a CI/CD pipeline
 - Mentor activities: Weekly meeting with students
+- [Module: 05. CICD](modules/05.%20CICD)
 
 
-#### Week #9: Databases
+#### Week #6: Databases
 - **Goal:** Understand the basics of databases, SQL, NoSQL, and database management systems.
 - Mentor activities: Weekly meeting with students
 
 
-#### Week #11: Infrastructure as Code (IaC)
-- [Module "Infrastructure as Code"](modules/Infrastructure as Code (IaC)/README.md)
+#### Week #7: Infrastructure as Code (IaC)
+- [Module: 07. Infrastructure as Code (IaC)](modules/07.%20Infrastructure%20as%20Code%20(IaC)/README.md)
 - Mentor activities: Weekly meeting with students
 
-#### Week #12: Configuration Management
+#### Week #8: Configuration Management
 - **Goal:** Understand what Configuration Management is, its benefits, and how to use a common tool such as Ansible.
+- [Module: 08. Configuration Management](modules/08.%20Configuration%20Management/README.md)
 - Mentor activities: Weekly meeting with students
 
-
-#### Week #13: Virtualization vs Containerization
+#### Week #9: Virtualization vs Containerization
 - **Goal:** Understand the differences between virtualization and containerization, and their applications in DevOps.
+- [Module: 09. Containers vs VMs](modules/09.%20Containers%20vs%20VMs/README.md)
 - Mentor activities: Weekly meeting with students
 
-#### Week #14: Orchestration and Clustering
+#### Week #10: Orchestration and Clustering
 - **Goal:** Understand the basics of orchestration, clustering, and popular tools like Kubernetes and Docker Swarm.
+- [Module: 10. Orchestration and Clustering](modules/10.%20Orchestration%20and%20Clustering/README.md)
 - Mentor activities: Weekly meeting with students
 
-#### Week #15 Students Presentation & Online Meetup
+#### Week #11: Students Presentation & Online Meetup
 - Online meetup
   - Real-world Case Studies
   - Guest Lectures:  insights into real-world applications, current industry trends, and potential challenges.
 
-#### Week #16: Final Project
+#### Week #12: Final Project
 - - ["Final Project"](modules/final-project/README.md)
 -
-#### Week #17: Final Project
+#### Week #13: Final Project
 - - ["Final Project"](modules/final-project/README.md)
 - Mentor activities: Weekly meeting with students
 
-#### Week #18: Final Project Presentation
+#### Week #14: Final Project Presentation
 - - ["Final Project Presentation"](modules/final-project/README.md)
 
-#### Week #19 Mock interview. Career Guidance and Job Assistance
+#### Week #15: Mock interview. Career Guidance and Job Assistance
  - Live session on the career guidance, resume building, and interview preparation
  - Mock interview with a mentor.
 Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.

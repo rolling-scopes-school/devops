@@ -28,6 +28,7 @@ Before starting the course, the student must:
 
 #### Week #2: Linux Basics
 - [Module: 01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
+- [Module: 01. A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
 
 #### Week #3: Networking Basics
 - [Module "Networking Basics](modules/Networking Basics/README.md)

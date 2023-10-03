@@ -27,14 +27,23 @@ Before starting the course, the student must:
 - Live Q&A session. Real-world case studies discussion
 
 #### Week #1: Linux Basics
-- [Module: 01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
+- **Goal:** Gain a foundational understanding of Linux operating system basics and develop proficiency in Automation and Scripting using Bash.
+- **Modules:**
+  - [01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
   - [A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
 
 #### Week #2: Networking Basics
-- [Module: 02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
+- **Goal:** Understand the fundamentals of computer networking and develop a strong foundation in networking concepts.
+- **Module:**
+  - [02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
+
 
 #### Week #3: Git
-- [Module: 03. Git](modules/03.%20Git/README.md)
+
+- **Goal:** Master version control systems and become proficient in using Git for effective collaboration and code management.
+- **Module:**
+  - [03. Git](modules/03.%20Git/README.md)
+
 
 #### Week #4: Cloud
 - **Goal:** Understand the basics of cloud computing, its types, and popular cloud service providers like AWS, GCP, and Azure.
@@ -83,19 +92,19 @@ Before starting the course, the student must:
   - Guest Lectures:  insights into real-world applications, current industry trends, and potential challenges.
 
 #### Week #12: Final Project
-- - ["Final Project"](modules/final-project/README.md)
--
+- ["Final Project"](modules/final-project/README.md)
+
 #### Week #13: Final Project
-- - ["Final Project"](modules/final-project/README.md)
-- Mentor activities: Weekly meeting with students
+- ["Final Project"](modules/final-project/README.md)
+  - Mentor activities: Weekly meeting with students
 
 #### Week #14: Final Project Presentation
-- - ["Final Project Presentation"](modules/final-project/README.md)
+- ["Final Project Presentation"](modules/final-project/README.md)
 
 #### Week #15: Mock interview. Career Guidance and Job Assistance
- - Live session on the career guidance, resume building, and interview preparation
- - Mock interview with a mentor.
-Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.
+- Live session on the career guidance, resume building, and interview preparation
+- Mock interview with a mentor.
+- Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.
 
 ### Communication
 

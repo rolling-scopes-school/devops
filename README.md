@@ -27,7 +27,7 @@ Before starting the course, the student must:
 - Live Q&A session. Real-world case studies discussion
 
 #### Week #2: Linux Basics
-- [Module: 01. Linux Basics](modules/01. Linux Basics/linux.md)
+- [Module: 01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
 
 #### Week #3: Networking Basics
 - [Module "Networking Basics](modules/Networking Basics/README.md)

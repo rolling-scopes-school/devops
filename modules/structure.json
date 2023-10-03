@@ -1,5 +1,8 @@
 {
     "items": [
-      { "path": "8. Configuration Management/ansible-workshop" }
+      { "path": "01. Linux Basics/A. Automation and Scripting Languages - Bash/linux-bash-workshop" },
+      { "path": "01. Linux Basics/A. Automation and Scripting Languages - Bash/linux-cli-workshop" },
+      { "path": "08. Configuration Management/ansible-workshop" },
+      { "path": "10. Containers/containers-workshop" }
     ]
 }

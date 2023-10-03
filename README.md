@@ -20,43 +20,45 @@ Before starting the course, the student must:
 
 ### Learning Path
 
-#### Week #1: RS School & DevOps Introduction
+#### Week #0: RS School & DevOps Introduction
 - Module "RS School & Course Introduction"
 - Module "Introduction to DevOps and its Principles"
 - Module "Junior DevOps Engineer Job Requirements and Responsibilities
 - Live Q&A session. Real-world case studies discussion
 
-#### Week #2: Linux Basics
+#### Week #1: Linux Basics
 - [Module: 01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
 - [--- A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
 
-#### Week #3: Networking Basics
-- [Module "Networking Basics](modules/Networking Basics/README.md)
+#### Week #2: Networking Basics
+- [Module: 02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
 
-#### Week #4: Git
-- [Module "Git](modules/git/README.md)
-- [Project: CV. Markdown](modules/git/cv-project.md)
+#### Week #3: Git
+- [Module: 03. Git](modules/03.%20Git/README.md)
 
-#### Week #5: Cloud
+#### Week #4: Cloud
 - **Goal:** Understand the basics of cloud computing, its types, and popular cloud service providers like AWS, GCP, and Azure.
-- [Module "AWS Cloud Practitioner Essentials"](modules/aws-cloud-practitioner-essentials/README.md)
+- [Module: 04. Cloud](modules/04.%20Cloud)
+  - [AWS Fundamentals](modules/04.%20Cloud/AWS%20Fundamentals/README.md)
+  - [AWS Cloud Practitioner Essentials](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Essentials/README.md)
+  - [AWS Cloud Practitioner Quests](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Quests/README.md)
 
-#### Week #6: AWS General Immersion Day
+#### Week #5: AWS General Immersion Day
 https://catalog.workshops.aws/general-immersionday/
 
-#### Week #7 AWS Cloud Quest
+#### Week #6 AWS Cloud Quest
 - [Module "AWS Cloud Practitioner Quest"](modules/aws-cloud-practitioner-essentials/README.md)
 
-#### Week #8: Technical screening & mentors distibution
+#### Week #7: Technical screening & mentors distibution
 - We will conduct interviews for the top 50 students based on their RS APP Scores. Following these interviews, those who perform better will be assigned a personal mentor.
 
-#### Week #9: CI/CD
+#### Week #8: CI/CD
 - **Goal:** Understand what CI/CD is, develop pipelines to automate code development, testing, and deployment using standard tools for the industry.
 - Practical assignment: Setting up a CI/CD pipeline
 - Mentor activities: Weekly meeting with students
 
 
-#### Week #10: Databases
+#### Week #9: Databases
 - **Goal:** Understand the basics of databases, SQL, NoSQL, and database management systems.
 - Mentor activities: Weekly meeting with students
 

@@ -114,12 +114,12 @@ Before starting the course, the student must:
 #### Week #12 - 13: Final Project
 
 - **Final Project:**
-  - ["Final Project"](modules/final-project/README.md)
+  - [Final Project](modules/final-project/README.md)
 
 #### Week #14: Final Project Presentation
 
 - **Final Project Presentation:**
-  - ["Final Project Presentation"](modules/final-project/README.md)
+  - [Final Project Presentation](modules/final-project/README.md)
 
 #### Week #15: Mock Interview, Career Guidance, and Job Assistance
 - **Live Session:**

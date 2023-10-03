@@ -20,106 +20,145 @@ Before starting the course, the student must:
 
 ### Learning Path
 
-#### Week #1: RS School & DevOps Introduction
-- [Module "RS School & Course Introduction"](modules/intro/README.md)
-- [Module "Introduction to DevOps and its Principles"](modules/devops_intro/README.md)
-- [Module "Junior DevOps Engineer Job Requirements and Responsibilities]()
+#### Week #0: RS School & DevOps Introduction
+- Module "RS School & Course Introduction"
+- Module "Introduction to DevOps and its Principles"
+- Module "Junior DevOps Engineer Job Requirements and Responsibilities
 - Live Q&A session. Real-world case studies discussion
 
-#### Week #2: Linux Basics
-- [Module "Linux Basics]()
+#### Week #1: Linux Basics
 
-#### Week #3: Networking Basics
-- [Module "Networking Basics](modules/Networking Basics/README.md)
+- **Goal:** Gain a foundational understanding of Linux operating system basics and develop proficiency in Automation and Scripting using Bash.
+- **Modules:**
+  - [01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
+  - [A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
 
-#### Week #4: Git
-- [Module "Git](modules/git/README.md)
-- [Project: CV. Markdown](modules/git/cv-project.md)
+#### Week #2: Networking Basics
 
-#### Week #5: Cloud
-- **Goal:** Understand the basics of cloud computing, its types, and popular cloud service providers like AWS, GCP, and Azure.
-- [Module "AWS Cloud Practitioner Essentials"](modules/aws-cloud-practitioner-essentials/README.md)
-
-#### Week #6: AWS General Immersion Day
-https://catalog.workshops.aws/general-immersionday/
-
-#### Week #7 AWS Cloud Quest
-- [Module "AWS Cloud Practitioner Quest"](modules/aws-cloud-practitioner-essentials/README.md)
-
-#### Week #8: Technical screening & mentors distibution
-- We will conduct interviews for the top 50 students based on their RS APP Scores. Following these interviews, those who perform better will be assigned a personal mentor.
-
-#### Week #9: CI/CD
-- **Goal:** Understand what CI/CD is, develop pipelines to automate code development, testing, and deployment using standard tools for the industry.
-- Practical assignment: Setting up a CI/CD pipeline
-- Mentor activities: Weekly meeting with students
+- **Goal:** Understand the fundamentals of computer networking and develop a strong foundation in networking concepts.
+- **Module:**
+  - [02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
 
 
-#### Week #10: Databases
-- **Goal:** Understand the basics of databases, SQL, NoSQL, and database management systems.
-- Mentor activities: Weekly meeting with students
+#### Week #3: Git
+
+- **Goal:** Master version control systems and become proficient in using Git for effective collaboration and code management.
+- **Module:**
+  - [03. Git](modules/03.%20Git/README.md)
 
 
-#### Week #11: Infrastructure as Code (IaC)
-- [Module "Infrastructure as Code"](modules/Infrastructure as Code (IaC)/README.md)
-- Mentor activities: Weekly meeting with students
+#### Week #4: Cloud
 
-#### Week #12: Configuration Management
-- **Goal:** Understand what Configuration Management is, its benefits, and how to use a common tool such as Ansible.
-- Mentor activities: Weekly meeting with students
+- **Goal:** Gain a comprehensive understanding of cloud computing, including its fundamentals, types, and major cloud service providers like AWS, GCP, and Azure.
+- **Modules:**
+  - [04. Cloud: AWS Fundamentals](modules/04.%20Cloud/AWS%20Fundamentals/README.md)
+  - [04. Cloud: AWS Cloud Practitioner Essentials](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Essentials/README.md)
+  - [04. Cloud: AWS Cloud Practitioner Quests](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Quests/README.md)
 
 
-#### Week #13: Virtualization vs Containerization
-- **Goal:** Understand the differences between virtualization and containerization, and their applications in DevOps.
-- Mentor activities: Weekly meeting with students
+#### Week #4.5: AWS General Immersion Day
 
-#### Week #14: Orchestration and Clustering
-- **Goal:** Understand the basics of orchestration, clustering, and popular tools like Kubernetes and Docker Swarm.
-- Mentor activities: Weekly meeting with students
+- **Goal:** Immerse yourself in AWS technologies and gain hands-on experience through AWS General Immersion Day.
+- **Resource:** [AWS Inmersion Day](https://catalog.workshops.aws/general-immersionday/)
 
-#### Week #15 Students Presentation & Online Meetup
-- Online meetup
+
+#### Week #5: CI/CD
+
+- **Goal:** Gain a deep understanding of Continuous Integration and Continuous Deployment (CI/CD) concepts, and learn how to create automated pipelines for code development, testing, and deployment using industry-standard tools.
+- **Practical Assignment:** Set up a CI/CD pipeline.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [05. CICD](modules/05.%20CICD/README.md)
+
+#### Week #6: Databases
+
+- **Goal:** Acquire fundamental knowledge of databases, including SQL and NoSQL, along with insights into database management systems.
+- **Mentor Activities:** Weekly meetings with students.
+
+#### Week #7: Infrastructure as Code (IaC)
+
+- **Goal:** Understand the concept of Infrastructure as Code (IaC) and learn how to automate the provisioning and management of infrastructure using code.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [07. Infrastructure as Code (IaC)](modules/07.%20Infrastructure%20as%20Code%20(IaC)/README.md)
+
+
+#### Week #8: Configuration Management
+
+- **Goal:** Comprehend the concept of Configuration Management, its advantages, and learn how to utilize a widely used tool like Ansible.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [08. Configuration Management](modules/08.%20Configuration%20Management/README.md)
+
+
+#### Week #9: Virtualization vs Containerization
+
+- **Goal:** Grasp the distinctions between virtualization and containerization, and their applications within the DevOps landscape.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [09. Containers vs VMs](modules/09.%20Containers%20vs%20VMs/README.md)
+
+#### Week #10: Orchestration and Clustering
+
+- **Goal:** Acquire a foundational understanding of orchestration, clustering, and become familiar with popular tools like Kubernetes and Docker Swarm.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module: 10. Orchestration and Clustering**
+  - [10. Orchestration and Clustering](modules/10.%20Orchestration%20and%20Clustering/README.md)
+
+#### Week #11: Students Presentation & Online Meetup
+
+- **Online Meetup:**
   - Real-world Case Studies
-  - Guest Lectures:  insights into real-world applications, current industry trends, and potential challenges.
+  - Guest Lectures: Insights into real-world applications, current industry trends, and potential challenges.
 
-#### Week #16: Final Project
-- - ["Final Project"](modules/final-project/README.md)
--
-#### Week #17: Final Project
-- - ["Final Project"](modules/final-project/README.md)
-- Mentor activities: Weekly meeting with students
+#### Week #12 - 13: Final Project
 
-#### Week #18: Final Project Presentation
-- - ["Final Project Presentation"](modules/final-project/README.md)
+- **Final Project:**
+  - [Final Project](modules/final-project/README.md)
 
-#### Week #19 Mock interview. Career Guidance and Job Assistance
- - Live session on the career guidance, resume building, and interview preparation
- - Mock interview with a mentor.
-Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.
+#### Week #14: Final Project Presentation
+
+- **Final Project Presentation:**
+  - [Final Project Presentation](modules/final-project/README.md)
+
+#### Week #15: Mock Interview, Career Guidance, and Job Assistance
+- **Live Session:**
+  - Career Guidance
+  - Resume Building
+  - Interview Preparation
+- **Mock Interview:**
+  - Conducted by a mentor (not their assigned one).
+- **Note:**
+  - Students are expected to actively participate in the mock interview.
 
 ### Communication
 
-#### Discord Server
+#### [Discord Server](https://discord.gg/uWvFU2RAba)
 Our Discord server is the main platform for communication. We have created two categories of channels - RS-AWS-Club-EN and RS-AWS-Club-RU, for English and Russian-speaking members respectively.
-Link to join: https://discord.gg/uWvFU2RAba
 
-#### Q&A Sessions
+#### [Q&A Sessions](https://discord.gg/uWvFU2RAba)
 We have regular Q&A sessions every Tuesday (**TBD**) at 15:00 CET (**TBD**) in English.
 
 ### AWS Accounts
-- Important! You use your personal AWS accounts to complete the courses.
-- We occasionally host AWS workshops for which free accounts are provided.
+
+- Important! You use your personal [AWS accounts](https://aws.amazon.com/) to complete the courses.
+- We occasionally host [AWS workshops](https://aws.amazon.com/getting-started/hands-on/) for which free accounts are provided.
 
 ## FAQ
+
 ### Where is the communication taking place?
-In the Discord chat - [https://discord.gg/2Ww3TCBvz4](https://discord.gg/uWvFU2RAba)
+
+In the [Discord chat](https://discord.gg/uWvFU2RAba).
 
 ### Where can I ask a question?
-Questions can be asked in the Discord chat - https://discord.gg/2Ww3TCBvz4
+
+Questions can be asked in the [Discord chat](https://discord.gg/uWvFU2RAba).
 
 #### Can I study the learning modules and do projects in advance?
+
 Sure!
 
 ### Is it necessary to watch the webinars?
-No. After self-studying the materials, you can watch the webinar to consolidate the information or ask questions on Discord server.
-The webinar recordings can be found on our channel - https://www.youtube.com/@RSSchool.
+
+No. After self-studying the materials, you can watch the webinar to consolidate the information or ask questions on the [Discord server](https://discord.gg/uWvFU2RAba).
+The webinar recordings can be found on our [YouTube channel](https://www.youtube.com/@RSSchool).

@@ -12,7 +12,7 @@
 
 ### Prerequisites
 
-Before starting the course, the student must:  
+Before starting the course, the student must:
 - Have basic knowledge of Computer Science.
 - Be able to commit to studying for at least 10 hours per week.
 - Have a working knowledge of a programming language, preferably Python or JavaScript.
@@ -26,13 +26,13 @@ Before starting the course, the student must:
 - [Module "Junior DevOps Engineer Job Requirements and Responsibilities]()
 - Live Q&A session. Real-world case studies discussion
 
-#### Week #2: Linux Basics 
+#### Week #2: Linux Basics
 - [Module "Linux Basics]()
 
-#### Week #3: Networking
+#### Week #3: Networking Basics
 - [Module "Networking Basics](modules/Networking Basics/README.md)
 
-#### Week #4: Git 
+#### Week #4: Git
 - [Module "Git](modules/git/README.md)
 - [Project: CV. Markdown](modules/git/cv-project.md)
 
@@ -84,7 +84,7 @@ https://catalog.workshops.aws/general-immersionday/
 
 #### Week #16: Final Project
 - - ["Final Project"](modules/final-project/README.md)
-- 
+-
 #### Week #17: Final Project
 - - ["Final Project"](modules/final-project/README.md)
 - Mentor activities: Weekly meeting with students
@@ -94,19 +94,19 @@ https://catalog.workshops.aws/general-immersionday/
 
 #### Week #19 Mock interview. Career Guidance and Job Assistance
  - Live session on the career guidance, resume building, and interview preparation
- - Mock interview with a mentor. 
+ - Mock interview with a mentor.
 Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.
 
 ### Communication
 
 #### Discord Server
-Our Discord server is the main platform for communication. We have created two categories of channels - RS-AWS-Club-EN and RS-AWS-Club-RU, for English and Russian-speaking members respectively. 
+Our Discord server is the main platform for communication. We have created two categories of channels - RS-AWS-Club-EN and RS-AWS-Club-RU, for English and Russian-speaking members respectively.
 Link to join: https://discord.gg/uWvFU2RAba
 
 #### Q&A Sessions
 We have regular Q&A sessions every Tuesday (**TBD**) at 15:00 CET (**TBD**) in English.
 
-### AWS Accounts 
+### AWS Accounts
 - Important! You use your personal AWS accounts to complete the courses.
 - We occasionally host AWS workshops for which free accounts are provided.
 
@@ -123,6 +123,3 @@ Sure!
 ### Is it necessary to watch the webinars?
 No. After self-studying the materials, you can watch the webinar to consolidate the information or ask questions on Discord server.
 The webinar recordings can be found on our channel - https://www.youtube.com/@RSSchool.
-
-
-

@@ -21,13 +21,13 @@ Before starting the course, the student must:
 ### Learning Path
 
 #### Week #1: RS School & DevOps Introduction
-- [Module "RS School & Course Introduction"](modules/intro/README.md)
-- [Module "Introduction to DevOps and its Principles"](modules/devops_intro/README.md)
-- [Module "Junior DevOps Engineer Job Requirements and Responsibilities]()
+- Module "RS School & Course Introduction"
+- Module "Introduction to DevOps and its Principles"
+- Module "Junior DevOps Engineer Job Requirements and Responsibilities
 - Live Q&A session. Real-world case studies discussion
 
 #### Week #2: Linux Basics
-- [Module "Linux Basics]()
+- [Module "Linux Basics](odules/01.\Linux/README.md)
 
 #### Week #3: Networking Basics
 - [Module "Networking Basics](modules/Networking Basics/README.md)

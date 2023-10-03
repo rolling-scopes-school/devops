@@ -133,27 +133,32 @@ Before starting the course, the student must:
 
 ### Communication
 
-#### Discord Server
+#### [Discord Server](https://discord.gg/uWvFU2RAba)
 Our Discord server is the main platform for communication. We have created two categories of channels - RS-AWS-Club-EN and RS-AWS-Club-RU, for English and Russian-speaking members respectively.
-Link to join: https://discord.gg/uWvFU2RAba
 
-#### Q&A Sessions
+#### [Q&A Sessions](https://discord.gg/uWvFU2RAba)
 We have regular Q&A sessions every Tuesday (**TBD**) at 15:00 CET (**TBD**) in English.
 
 ### AWS Accounts
-- Important! You use your personal AWS accounts to complete the courses.
-- We occasionally host AWS workshops for which free accounts are provided.
+
+- Important! You use your personal [AWS accounts](https://aws.amazon.com/) to complete the courses.
+- We occasionally host [AWS workshops](https://aws.amazon.com/getting-started/hands-on/) for which free accounts are provided.
 
 ## FAQ
+
 ### Where is the communication taking place?
-In the Discord chat - [https://discord.gg/2Ww3TCBvz4](https://discord.gg/uWvFU2RAba)
+
+In the [Discord chat](https://discord.gg/uWvFU2RAba).
 
 ### Where can I ask a question?
-Questions can be asked in the Discord chat - https://discord.gg/2Ww3TCBvz4
+
+Questions can be asked in the [Discord chat](https://discord.gg/uWvFU2RAba).
 
 #### Can I study the learning modules and do projects in advance?
+
 Sure!
 
 ### Is it necessary to watch the webinars?
-No. After self-studying the materials, you can watch the webinar to consolidate the information or ask questions on Discord server.
-The webinar recordings can be found on our channel - https://www.youtube.com/@RSSchool.
+
+No. After self-studying the materials, you can watch the webinar to consolidate the information or ask questions on the [Discord server](https://discord.gg/uWvFU2RAba).
+The webinar recordings can be found on our [YouTube channel](https://www.youtube.com/@RSSchool).

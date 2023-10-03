@@ -27,12 +27,14 @@ Before starting the course, the student must:
 - Live Q&A session. Real-world case studies discussion
 
 #### Week #1: Linux Basics
+
 - **Goal:** Gain a foundational understanding of Linux operating system basics and develop proficiency in Automation and Scripting using Bash.
 - **Modules:**
   - [01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
   - [A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
 
 #### Week #2: Networking Basics
+
 - **Goal:** Understand the fundamentals of computer networking and develop a strong foundation in networking concepts.
 - **Module:**
   - [02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
@@ -46,65 +48,88 @@ Before starting the course, the student must:
 
 
 #### Week #4: Cloud
-- **Goal:** Understand the basics of cloud computing, its types, and popular cloud service providers like AWS, GCP, and Azure.
-- [Module: 04. Cloud](modules/04.%20Cloud)
-  - [AWS Fundamentals](modules/04.%20Cloud/AWS%20Fundamentals/README.md)
-  - [AWS Cloud Practitioner Essentials](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Essentials/README.md)
-  - [AWS Cloud Practitioner Quests](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Quests/README.md)
+
+- **Goal:** Gain a comprehensive understanding of cloud computing, including its fundamentals, types, and major cloud service providers like AWS, GCP, and Azure.
+- **Modules:**
+  - [04. Cloud: AWS Fundamentals](modules/04.%20Cloud/AWS%20Fundamentals/README.md)
+  - [04. Cloud: AWS Cloud Practitioner Essentials](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Essentials/README.md)
+  - [04. Cloud: AWS Cloud Practitioner Quests](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Quests/README.md)
+
 
 #### Week #4.5: AWS General Immersion Day
-- [AWS Inmersion Day](https://catalog.workshops.aws/general-immersionday/)
+
+- **Goal:** Immerse yourself in AWS technologies and gain hands-on experience through AWS General Immersion Day.
+- **Resource:** [AWS Inmersion Day](https://catalog.workshops.aws/general-immersionday/)
+
 
 #### Week #5: CI/CD
-- **Goal:** Understand what CI/CD is, develop pipelines to automate code development, testing, and deployment using standard tools for the industry.
-- Practical assignment: Setting up a CI/CD pipeline
-- Mentor activities: Weekly meeting with students
-- [Module: 05. CICD](modules/05.%20CICD)
 
+- **Goal:** Gain a deep understanding of Continuous Integration and Continuous Deployment (CI/CD) concepts, and learn how to create automated pipelines for code development, testing, and deployment using industry-standard tools.
+- **Practical Assignment:** Set up a CI/CD pipeline.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [05. CICD](modules/05.%20CICD/README.md)
 
 #### Week #6: Databases
-- **Goal:** Understand the basics of databases, SQL, NoSQL, and database management systems.
-- Mentor activities: Weekly meeting with students
 
+- **Goal:** Acquire fundamental knowledge of databases, including SQL and NoSQL, along with insights into database management systems.
+- **Mentor Activities:** Weekly meetings with students.
 
 #### Week #7: Infrastructure as Code (IaC)
-- [Module: 07. Infrastructure as Code (IaC)](modules/07.%20Infrastructure%20as%20Code%20(IaC)/README.md)
-- Mentor activities: Weekly meeting with students
+
+- **Goal:** Understand the concept of Infrastructure as Code (IaC) and learn how to automate the provisioning and management of infrastructure using code.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [07. Infrastructure as Code (IaC)](modules/07.%20Infrastructure%20as%20Code%20(IaC)/README.md)
+
 
 #### Week #8: Configuration Management
-- **Goal:** Understand what Configuration Management is, its benefits, and how to use a common tool such as Ansible.
-- [Module: 08. Configuration Management](modules/08.%20Configuration%20Management/README.md)
-- Mentor activities: Weekly meeting with students
+
+- **Goal:** Comprehend the concept of Configuration Management, its advantages, and learn how to utilize a widely used tool like Ansible.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [08. Configuration Management](modules/08.%20Configuration%20Management/README.md)
+
 
 #### Week #9: Virtualization vs Containerization
-- **Goal:** Understand the differences between virtualization and containerization, and their applications in DevOps.
-- [Module: 09. Containers vs VMs](modules/09.%20Containers%20vs%20VMs/README.md)
-- Mentor activities: Weekly meeting with students
+
+- **Goal:** Grasp the distinctions between virtualization and containerization, and their applications within the DevOps landscape.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module:**
+  - [09. Containers vs VMs](modules/09.%20Containers%20vs%20VMs/README.md)
 
 #### Week #10: Orchestration and Clustering
-- **Goal:** Understand the basics of orchestration, clustering, and popular tools like Kubernetes and Docker Swarm.
-- [Module: 10. Orchestration and Clustering](modules/10.%20Orchestration%20and%20Clustering/README.md)
-- Mentor activities: Weekly meeting with students
+
+- **Goal:** Acquire a foundational understanding of orchestration, clustering, and become familiar with popular tools like Kubernetes and Docker Swarm.
+- **Mentor Activities:** Weekly meetings with students.
+- **Module: 10. Orchestration and Clustering**
+  - [10. Orchestration and Clustering](modules/10.%20Orchestration%20and%20Clustering/README.md)
 
 #### Week #11: Students Presentation & Online Meetup
-- Online meetup
+
+- **Online Meetup:**
   - Real-world Case Studies
-  - Guest Lectures:  insights into real-world applications, current industry trends, and potential challenges.
+  - Guest Lectures: Insights into real-world applications, current industry trends, and potential challenges.
 
-#### Week #12: Final Project
-- ["Final Project"](modules/final-project/README.md)
+#### Week #12 - 13: Final Project
 
-#### Week #13: Final Project
-- ["Final Project"](modules/final-project/README.md)
-  - Mentor activities: Weekly meeting with students
+- **Final Project:**
+  - ["Final Project"](modules/final-project/README.md)
 
 #### Week #14: Final Project Presentation
-- ["Final Project Presentation"](modules/final-project/README.md)
 
-#### Week #15: Mock interview. Career Guidance and Job Assistance
-- Live session on the career guidance, resume building, and interview preparation
-- Mock interview with a mentor.
-- Students are expected to participate in a mock interview conducted by a mentor who is not their assigned one.
+- **Final Project Presentation:**
+  - ["Final Project Presentation"](modules/final-project/README.md)
+
+#### Week #15: Mock Interview, Career Guidance, and Job Assistance
+- **Live Session:**
+  - Career Guidance
+  - Resume Building
+  - Interview Preparation
+- **Mock Interview:**
+  - Conducted by a mentor (not their assigned one).
+- **Note:**
+  - Students are expected to actively participate in the mock interview.
 
 ### Communication
 

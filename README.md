@@ -26,28 +26,28 @@ Before starting the course, the student must:
 - Module "Junior DevOps Engineer Job Requirements and Responsibilities
 - Live Q&A session. Real-world case studies discussion
 
-#### Week #1: Linux Basics
+#### Week #1-2: Linux Basics & Automation and Scripting with Bash
 
 - **Goal:** Gain a foundational understanding of Linux operating system basics and develop proficiency in Automation and Scripting using Bash.
 - **Modules:**
   - [01. Linux Basics](modules/01.%20Linux%20Basics/linux.md)
   - [A. Automation and Scripting Languages - Bash](modules/01.%20Linux%20Basics/workshop.md)
 
-#### Week #2: Networking Basics
+#### Week #3: Networking Basics
 
 - **Goal:** Understand the fundamentals of computer networking and develop a strong foundation in networking concepts.
 - **Module:**
   - [02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
 
 
-#### Week #3: Git
+#### Week #4: Git
 
 - **Goal:** Master version control systems and become proficient in using Git for effective collaboration and code management.
 - **Module:**
   - [03. Git](modules/03.%20Git/README.md)
 
 
-#### Week #4: Cloud
+#### Week #5: Cloud
 
 - **Goal:** Gain a comprehensive understanding of cloud computing, including its fundamentals, types, and major cloud service providers like AWS, GCP, and Azure.
 - **Modules:**
@@ -56,13 +56,13 @@ Before starting the course, the student must:
   - [04. Cloud: AWS Cloud Practitioner Quests](modules/04.%20Cloud/AWS%20Cloud%20Practitioner%20Quests/README.md)
 
 
-#### Week #4.5: AWS General Immersion Day
+#### Week #6.5: AWS General Immersion Day
 
 - **Goal:** Immerse yourself in AWS technologies and gain hands-on experience through AWS General Immersion Day.
 - **Resource:** [AWS Inmersion Day](https://catalog.workshops.aws/general-immersionday/)
 
 
-#### Week #5: CI/CD
+#### Week #7: CI/CD
 
 - **Goal:** Gain a deep understanding of Continuous Integration and Continuous Deployment (CI/CD) concepts, and learn how to create automated pipelines for code development, testing, and deployment using industry-standard tools.
 - **Practical Assignment:** Set up a CI/CD pipeline.
@@ -70,12 +70,12 @@ Before starting the course, the student must:
 - **Module:**
   - [05. CICD](modules/05.%20CICD/README.md)
 
-#### Week #6: Databases
+#### Week #8: Databases
 
 - **Goal:** Acquire fundamental knowledge of databases, including SQL and NoSQL, along with insights into database management systems.
 - **Mentor Activities:** Weekly meetings with students.
 
-#### Week #7: Infrastructure as Code (IaC)
+#### Week #9: Infrastructure as Code (IaC)
 
 - **Goal:** Understand the concept of Infrastructure as Code (IaC) and learn how to automate the provisioning and management of infrastructure using code.
 - **Mentor Activities:** Weekly meetings with students.
@@ -83,7 +83,7 @@ Before starting the course, the student must:
   - [07. Infrastructure as Code (IaC)](modules/07.%20Infrastructure%20as%20Code%20(IaC)/README.md)
 
 
-#### Week #8: Configuration Management
+#### Week #10: Configuration Management
 
 - **Goal:** Comprehend the concept of Configuration Management, its advantages, and learn how to utilize a widely used tool like Ansible.
 - **Mentor Activities:** Weekly meetings with students.
@@ -91,37 +91,37 @@ Before starting the course, the student must:
   - [08. Configuration Management](modules/08.%20Configuration%20Management/README.md)
 
 
-#### Week #9: Virtualization vs Containerization
+#### Week #11: Virtualization vs Containerization
 
 - **Goal:** Grasp the distinctions between virtualization and containerization, and their applications within the DevOps landscape.
 - **Mentor Activities:** Weekly meetings with students.
 - **Module:**
   - [09. Containers vs VMs](modules/09.%20Containers%20vs%20VMs/README.md)
 
-#### Week #10: Orchestration and Clustering
+#### Week #12: Orchestration and Clustering
 
 - **Goal:** Acquire a foundational understanding of orchestration, clustering, and become familiar with popular tools like Kubernetes and Docker Swarm.
 - **Mentor Activities:** Weekly meetings with students.
 - **Module: 10. Orchestration and Clustering**
   - [10. Orchestration and Clustering](modules/10.%20Orchestration%20and%20Clustering/README.md)
 
-#### Week #11: Students Presentation & Online Meetup
+#### Week #13: Students Presentation & Online Meetup
 
 - **Online Meetup:**
   - Real-world Case Studies
   - Guest Lectures: Insights into real-world applications, current industry trends, and potential challenges.
 
-#### Week #12 - 13: Final Project
+#### Week #14 - 15: Final Project
 
 - **Final Project:**
   - [Final Project](modules/final-project/README.md)
 
-#### Week #14: Final Project Presentation
+#### Week #16: Final Project Presentation
 
 - **Final Project Presentation:**
   - [Final Project Presentation](modules/final-project/README.md)
 
-#### Week #15: Mock Interview, Career Guidance, and Job Assistance
+#### Week #17: Mock Interview, Career Guidance, and Job Assistance
 - **Live Session:**
   - Career Guidance
   - Resume Building

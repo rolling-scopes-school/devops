@@ -1,0 +1,54 @@
+{
+    "title": "RSSchool Containers Workshop",
+    "description": "Let's learn how to manipulate containers with Docker and orchestrate with Kubernetes",
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh",
+            "foreground": "wait-init.sh"
+        },
+        "steps": [
+            {
+                "title": "Part 1: Introduction to Containers and Docker",
+                "text": "step1/text.md",
+                "verify": "step1/verify.sh"
+            },
+            {
+                "title": "Part 2: Docker Compose and Multi-Container Applications",
+                "text": "step2/text.md",
+                "verify": "step2/verify.sh"
+            },
+            {
+                "title": "Part 3: Introduction to Kubernetes",
+                "text": "step3/text.md",
+                "verify": "step3/verify.sh"
+            },
+            {
+                "title": "Part 4: Kubernetes Deployment and Services",
+                "text": "step4/text.md",
+                "verify": "step4/verify.sh"
+            },
+            {
+                "title": "Part 5: Advanced Kubernetes Concepts",
+                "text": "step5/text.md",
+                "verify": "step5/verify.sh"
+            },
+            {
+                "title": "Part 5: Advanced Kubernetes Concepts",
+                "text": "step6/text.md",
+                "verify": "step6/verify.sh"
+            },
+            {
+                "title": "Part 5: Advanced Kubernetes Concepts",
+                "text": "step7/text.md",
+                "verify": "step7/verify.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "kubernetes-kubeadm-1node"
+    }
+}

@@ -1,0 +1,9 @@
+# Write your docker compose here
+api:
+  image: myfirstcontainer:latest
+  container_name: fastapi-application
+  environment:
+    PORT: 8000
+  ports:
+    - '8000:8000'
+  restart: "no"

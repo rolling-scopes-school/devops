@@ -38,6 +38,7 @@ Before starting the course, the student must:
 - **Goal:** Understand the fundamentals of computer networking and develop a strong foundation in networking concepts.
 - **Module:**
   - [02. Networking Basics](modules/02.%20Networking%20Basics/README.md)
+  - [02.1 Networking Workshop](modules/02.%20Networking%20Basics/02.1%20Networking%20Workshop/README.md)
 
 
 #### Week #4: Git

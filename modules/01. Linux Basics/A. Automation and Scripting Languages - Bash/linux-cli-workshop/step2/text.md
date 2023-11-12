@@ -16,21 +16,21 @@
 
 1. Remove all data from /task1
 2. Create /task1/divine_comedy directory
-3. Create three files: chapter_1, chapter_2, chapter_3
-4. Open /task1/chapter_1 with nano* editor and type two lines
+3. In /task1/divine_comedy create three files: chapter_1, chapter_2, chapter_3
+4. Open /task1/divine_comedy/chapter_1 with nano* editor and type two lines
 
-> In the midway of this our mortal life,  
-> I found me in a gloomy wood, astray
+    > In the midway of this our mortal life,  
+    > I found me in a gloomy wood, astray
 
-5. Open /task1/chapter_2 with nano* editor and type two lines
+5. Open /task1/divine_comedy/chapter_2 with nano* editor and type two lines
 
-> Gone from the path direct: and even to tell  
-> It were no easy task, how savage wild
+    > Gone from the path direct: and even to tell  
+    > It were no easy task, how savage wild
 
-6. Open /task1/chapter_3 with nano* editor and type two lines
+6. Open /task1/divine_comedy/chapter_3 with nano* editor and type two lines
 
-> That forest, how robust and rough its growth,  
-> Which to remember only, my dismay
+    > That forest, how robust and rough its growth,  
+    > Which to remember only, my dismay
 
 ## NOTE:
 
